@@ -1,0 +1,108 @@
+---
+en:
+  application:
+    default_values:
+      work_unity: Central unit
+    dimensions:
+      default_label: Dimension
+      autonomy_levels:
+        none:
+          label: Pending
+          description: 
+          color: "#B8B1B1"
+          text_color: "#FFFFFF"
+          secondary_color: "#8A8282"
+          range: '0'
+          on_search_label: Pending
+        low:
+          label: Low
+          description: auyonomy
+          color: "#EA4A4A"
+          text_color: "#FFFFFF"
+          secondary_color: "#EA4A4A"
+          range: '1,4'
+          on_search_label: Low autonomy
+        mid:
+          label: Medium
+          description: autonomy
+          color: "#FECD20"
+          text_color: "#433C3C"
+          secondary_color: "#FECD20"
+          range: '5,8'
+          on_search_label: Medium autonomy
+        high:
+          label: High
+          description: autonomy
+          color: "#59E968"
+          text_color: "#433C3C"
+          secondary_color: "#59E968"
+          range: '9,12'
+          on_search_label: High autonomy
+        undetermined:
+          label: TBD
+          description: TBD
+          color: "#B8B1B1"
+          text_color: "#FFFFFF"
+          secondary_color: "#8A8282"
+          on_search_label: TBD
+        draft:
+          label: Pending
+          description: 
+          color: "#B8B1B1"
+          text_color: "#FFFFFF"
+          secondary_color: "#8A8282"
+          on_search_label: Pending
+        published:
+          label: Concluded
+          description: 
+          color: "#B8B1B1"
+          text_color: "#FFFFFF"
+          secondary_color: "#8A8282"
+          on_search_label: Concluded
+      disagreement_levels:
+        low:
+          prefix: difference
+          label: Acceptable
+          suffix: 
+          description: The self-mapping and the manager´s mapping showed an acceptable
+            difference, less than or equal to two dashes.
+          color: "#433C3C"
+          text_color: "#FFFFFF"
+          on_search_label: Acceptable difference
+        high:
+          prefix: 
+          label: High
+          suffix: difference
+          description: 
+          color: "#FF3A99"
+          text_color: "#433C3C"
+          on_search_label: High difference
+        undetermined:
+          prefix: 
+          label: Without
+          suffix: Difference
+          description: 
+          color: "#433C3C"
+          text_color: "#FFFFFF"
+          on_search_label: Without difference
+    messages:
+      forgot_username:
+        subject: Forgot your username?
+        body: 'This is the username of your Tacito account: %{username}'
+    sms:
+      new_code: 'This is the confirmation code of your Tacito account: %{code}'
+      forgot_password: 'Click in this link to recover your password for the Tacito
+        account: %{url}'
+    seats:
+      actions:
+        destroy: Delete position
+        full_update: Edit position
+        move: Move position
+        person_update: Edit position
+        show_autonomy: See autonomy
+    collectives:
+      actions:
+        destroy: Delete working group
+        full_update: Edit working group
+        responsible_update: Edit working group
+        move: Move working group

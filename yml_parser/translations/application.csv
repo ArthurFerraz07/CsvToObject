@@ -1,0 +1,85 @@
+key,pt,en
+pt-BR.application.default_values.work_unity,Unidade central,Central unit
+pt-BR.application.dimensions.default_label,Dimensão,Dimension
+pt-BR.application.dimensions.autonomy_levels.none.label,Pendente,Pending
+pt-BR.application.dimensions.autonomy_levels.none.description,,
+pt-BR.application.dimensions.autonomy_levels.none.color,#B8B1B1,#B8B1B1
+pt-BR.application.dimensions.autonomy_levels.none.text_color,#FFFFFF,#FFFFFF
+pt-BR.application.dimensions.autonomy_levels.none.secondary_color,#8A8282,#8A8282
+pt-BR.application.dimensions.autonomy_levels.none.range,0,0
+pt-BR.application.dimensions.autonomy_levels.none.on_search_label,Pendente,Pending
+pt-BR.application.dimensions.autonomy_levels.low.label,Baixa,Low
+pt-BR.application.dimensions.autonomy_levels.low.description,autonomia,auyonomy
+pt-BR.application.dimensions.autonomy_levels.low.color,#EA4A4A,#EA4A4A
+pt-BR.application.dimensions.autonomy_levels.low.text_color,#FFFFFF,#FFFFFF
+pt-BR.application.dimensions.autonomy_levels.low.secondary_color,#EA4A4A,#EA4A4A
+pt-BR.application.dimensions.autonomy_levels.low.range,"1,4","1,4"
+pt-BR.application.dimensions.autonomy_levels.low.on_search_label,Baixa autonomia,Low autonomy
+pt-BR.application.dimensions.autonomy_levels.mid.label,Média,Medium
+pt-BR.application.dimensions.autonomy_levels.mid.description,autonomia,autonomy
+pt-BR.application.dimensions.autonomy_levels.mid.color,#FECD20,#FECD20
+pt-BR.application.dimensions.autonomy_levels.mid.text_color,#433C3C,#433C3C
+pt-BR.application.dimensions.autonomy_levels.mid.secondary_color,#FECD20,#FECD20
+pt-BR.application.dimensions.autonomy_levels.mid.range,"5,8","5,8"
+pt-BR.application.dimensions.autonomy_levels.mid.on_search_label,Média autonomia,Medium autonomy
+pt-BR.application.dimensions.autonomy_levels.high.label,Alta,High
+pt-BR.application.dimensions.autonomy_levels.high.description,autonomia,autonomy
+pt-BR.application.dimensions.autonomy_levels.high.color,#59E968,#59E968
+pt-BR.application.dimensions.autonomy_levels.high.text_color,#433C3C,#433C3C
+pt-BR.application.dimensions.autonomy_levels.high.secondary_color,#59E968,#59E968
+pt-BR.application.dimensions.autonomy_levels.high.range,"9,12","9,12"
+pt-BR.application.dimensions.autonomy_levels.high.on_search_label,Alta autonomia,High autonomy
+pt-BR.application.dimensions.autonomy_levels.undetermined.label,Indefinida,TBD
+pt-BR.application.dimensions.autonomy_levels.undetermined.description,,TBD
+pt-BR.application.dimensions.autonomy_levels.undetermined.color,#B8B1B1,#B8B1B1
+pt-BR.application.dimensions.autonomy_levels.undetermined.text_color,#FFFFFF,#FFFFFF
+pt-BR.application.dimensions.autonomy_levels.undetermined.secondary_color,#8A8282,#8A8282
+pt-BR.application.dimensions.autonomy_levels.undetermined.on_search_label,Indefinida,TBD
+pt-BR.application.dimensions.autonomy_levels.draft.label,Pendente,Pending
+pt-BR.application.dimensions.autonomy_levels.draft.description,,
+pt-BR.application.dimensions.autonomy_levels.draft.color,#B8B1B1,#B8B1B1
+pt-BR.application.dimensions.autonomy_levels.draft.text_color,#FFFFFF,#FFFFFF
+pt-BR.application.dimensions.autonomy_levels.draft.secondary_color,#8A8282,#8A8282
+pt-BR.application.dimensions.autonomy_levels.draft.on_search_label,Pendente,Pending
+pt-BR.application.dimensions.autonomy_levels.published.label,Concluído,Concluded
+pt-BR.application.dimensions.autonomy_levels.published.description,,
+pt-BR.application.dimensions.autonomy_levels.published.color,#B8B1B1,#B8B1B1
+pt-BR.application.dimensions.autonomy_levels.published.text_color,#FFFFFF,#FFFFFF
+pt-BR.application.dimensions.autonomy_levels.published.secondary_color,#8A8282,#8A8282
+pt-BR.application.dimensions.autonomy_levels.published.on_search_label,Concluído,Concluded
+pt-BR.application.dimensions.disagreement_levels.low.prefix,Diferença,difference
+pt-BR.application.dimensions.disagreement_levels.low.label,aceitável,Acceptable
+pt-BR.application.dimensions.disagreement_levels.low.suffix,,
+pt-BR.application.dimensions.disagreement_levels.low.description,"Os mapeamentos da pessoa e do gestor apresentaram uma diferença aceitável, menor ou igual a duas casas.","The self-mapping and the manager´s mapping showed an acceptable difference, less than or equal to two dashes."
+pt-BR.application.dimensions.disagreement_levels.low.color,#433C3C,#433C3C
+pt-BR.application.dimensions.disagreement_levels.low.text_color,#FFFFFF,#FFFFFF
+pt-BR.application.dimensions.disagreement_levels.low.on_search_label,Diferença aceitável,Acceptable difference
+pt-BR.application.dimensions.disagreement_levels.high.prefix,,
+pt-BR.application.dimensions.disagreement_levels.high.label,Alta,High
+pt-BR.application.dimensions.disagreement_levels.high.suffix,Diferença,difference
+pt-BR.application.dimensions.disagreement_levels.high.description,,
+pt-BR.application.dimensions.disagreement_levels.high.color,#FF3A99,#FF3A99
+pt-BR.application.dimensions.disagreement_levels.high.text_color,#433C3C,#433C3C
+pt-BR.application.dimensions.disagreement_levels.high.on_search_label,Alta diferença,High difference
+pt-BR.application.dimensions.disagreement_levels.undetermined.prefix,,
+pt-BR.application.dimensions.disagreement_levels.undetermined.label,Sem,Without
+pt-BR.application.dimensions.disagreement_levels.undetermined.suffix,diferença,Difference
+pt-BR.application.dimensions.disagreement_levels.undetermined.description,,
+pt-BR.application.dimensions.disagreement_levels.undetermined.color,#433C3C,#433C3C
+pt-BR.application.dimensions.disagreement_levels.undetermined.text_color,#FFFFFF,#FFFFFF
+pt-BR.application.dimensions.disagreement_levels.undetermined.on_search_label,Sem diferença,Without difference
+pt-BR.application.messages.forgot_username.subject,Esqueceu seu username?,Forgot your username?
+pt-BR.application.messages.forgot_username.body,Este é o username da sua conta Guidance: %{username},This is the username of your Tacito account: %{username}
+pt-BR.application.sms.new_code,"Este é o código de confirmação da sua conta Guidance: 
+ %{code}",This is the confirmation code of your Tacito account: %{code}
+pt-BR.application.sms.forgot_password,"Clique no link a seguir para recuperar a senha da sua conta Guidance. 
+ %{url}",Click in this link to recover your password for the Tacito account: %{url}
+pt-BR.application.seats.actions.destroy,Excluir cadeira,Delete position
+pt-BR.application.seats.actions.full_update,Editar cadeira,Edit position
+pt-BR.application.seats.actions.move,Mover cadeira,Move position
+pt-BR.application.seats.actions.person_update,Editar cadeira,Edit position
+pt-BR.application.seats.actions.show_autonomy,Ver autonomia,See autonomy
+pt-BR.application.collectives.actions.destroy,Excluir coletivo,Delete working group
+pt-BR.application.collectives.actions.full_update,Editar coletivo,Edit working group
+pt-BR.application.collectives.actions.responsible_update,Editar coletivo,Edit working group
+pt-BR.application.collectives.actions.move,Mover coletivo,Move working group

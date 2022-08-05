@@ -1,0 +1,82 @@
+# encoding: UTF-8
+# pt-BR translations for autonomy
+pt-BR:
+  autonomy:
+    mapping:
+      tooltips:
+        disagreements:
+          header:
+            title: 'Entenda o cálculo'
+            description: 'O cálculo do grau da diferença é realizado a partir da diferença das respostas do seu mapeamento e do automapeamento. A nível de função, leva em consideração os valores dados nas dimensões, sendo 0 a 2 baixa e 2 a 12 alta. Já a nível de atividade, utiliza os valores de autonomia dados para cada atividades, sendo 0 a 1 baixa e 1 a 12 alta.'
+        level:
+          draft:
+            title: ''
+            description: 'Este valor é parcial e refere-se ao mapeamento de autonomia que você fez. O valor final depende de dois mapeamentos: o do(a) gestor(a) e o automapeamento do empregado.'
+          person_published:
+            title: ''
+            description: 'Este valor é parcial e diz respeito apenas ao resultado do automapeamento desta pessoa'
+          responsible_published:
+            title: ''
+            description: 'Este valor é parcial e diz respeito apenas ao resultado do mapeamento do gestor desta pessoa'
+          undetermined_autonomy:
+            title: ''
+            description: 'A autonomia está pendente pois os dois mapeamentos realizados apresentam uma alta diferença entre eles.'
+      by_occupation:
+        tooltips:
+          autonomy:
+            draft?:
+              title: 'Mapeamento pendente'
+              description: 'Faça o mapeamento desta pessoa para visualizar o cálculo da autonomia'
+            info:
+              title: 'Autonomia'
+              description: 'Nível de expertise atribuído à pessoa'
+            responsible_should_publish?:
+              title: ''
+              description: 'Faça o mapeamento desta pessoa para visualizar o cálculo da autonomia'
+            self_mapping_pending?:
+              title: 'Esse resultado de autonomia é parcial'
+              description: 'Para que o resultado seja completo, são precisos dois mapeamentos: o do(a) gestor(a) e o do colaborador(a) mapeado(a).'
+            undetermined_autonomy?:
+              title: ''
+              description: 'Sugerimos a abertura em atividades para uma análise mais precisa'
+          disagreement_by_activity:
+            high:
+              title: ''
+              description: 'Uma diferença em atividades indica que os envolvidos estão desalinhados em relação ao valor de autonomia calculado, sendo necessária a realização de um novo mapeamento conjuntamente'
+          disagreement_by_occupation:
+            high_locked:
+              title: 'Acesse a área de autonomia dessa pessoa para resolver a alta diferença'
+              description: 'A diferença entre os mapeamentos foi igual a duas casas na maioria das dimensões ou foi maior do que três casas em qualquer dimensão'
+            high_unlocked:
+              title: 'Converse com seu liderado para entender a diferença entre mapeamentos'
+              description: 'A diferença entre os mapeamentos foi igual a duas casas na maioria das dimensões ou foi maior do que três casas em qualquer dimensão'
+            low:
+              title: 'A diferença é aceitável, não sendo necessário refazer o mapeamento'
+              description: 'A diferença será aceitável quando for menor ou igual a duas casas'
+            undetermined:
+              title: 'Nada a fazer'
+              description: 'A diferença é aceitável, não sendo necessário refazer o mapeamento. A diferença será aceitável quando for menor ou igual a duas casas'
+          level:
+            draft:
+              title: ''
+              description: 'Este valor é parcial e refere-se ao mapeamento de autonomia que você fez. O valor final depende de dois mapeamentos: o do(a) gestor(a) e o automapeamento do empregado.'
+            person_published:
+              title: ''
+              description: 'Este valor é parcial e diz respeito apenas ao resultado do automapeamento desta pessoa'
+            responsible_published:
+              title: ''
+              description: 'Este valor é parcial e diz respeito apenas ao resultado do mapeamento do gestor desta pessoa'
+            undetermined_autonomy:
+              title: ''
+              description: 'A autonomia está pendente pois os dois mapeamentos realizados apresentam uma alta diferença entre eles.'
+          person_status:
+            person_draft:
+              title: 'O automapeamento deste profissional precisa ser feito'
+              description: 'Para que o resultado seja completo, é preciso o automapeamento feito pela própria pessoa e o mapeamento dessa pessoa pelo(a) seu(sua) gestor(a) direto.'
+          specificity:
+            activity:
+              title: ''
+              description: 'Mapeamento por atividade realizado pelo ponto focal'
+            occupation:
+              title: ''
+              description: 'Este mapeamento está sendo realizado no nível de função'

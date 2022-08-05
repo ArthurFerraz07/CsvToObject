@@ -1,0 +1,105 @@
+---
+pt-BR:
+  activerecord:
+    errors:
+      models:
+        activity:
+          attributes:
+            base:
+              must_be_in_a_group_or_a_subgroup: "deve estar em um grupo ou subgrupo"
+              cant_be_in_a_group_and_a_subgroup: "não pode estar em um grupo e um subgrupo ao mesmo tempo"
+        administrator:
+          attributes:
+            password:
+              weak: "deve conter pelo menos 8 caracteres, incluindo letras maiúsculas, minúsculas, número e caractere especial"
+        autonomy/mapping/by_activity:
+          attributes:
+            base:
+              must_count_one_mapping_association: "o mapeamento deve ser de uma entidade específica (atividade, subgrupo ou grupo)"
+            responsible:
+              must_be_occupation_focal_point: "deve ser o ponto focal da função"
+        autonomy/mapping/by_occupation:
+          attributes:
+            base:
+              occupation_opened_invalid: "Você deve fazer o mapeamento da autonomia por atividades."
+              cannot_standardize_dimensions_scores: "não foi possível formatar as dimensões dadas."
+            person_dimensions_scores:
+              invalid_labels: "contém ao menos uma dimensão inválida"
+              invalid_scores: "contém ao menos um nivel inválido. O nivel deve estar entre %{min} e %{max}"
+            responsible_dimensions_scores:
+              invalid_labels: "contém ao menos uma dimensão inválida"
+              invalid_scores: "contém ao menos um nivel inválido. O nivel deve estar entre %{min} e %{max}"
+        autonomy/pattern:
+          attributes:
+            base:
+              cannot_draft_after_publish: "não é possível criar um rascunho após a publicação"
+            dimensions:
+              must_be_a_matrix: "deve ser uma matriz"
+              invalid_headers: "contém cabeçalho inválido"
+              invalid_columns: "contém número de colunas inválido"
+              invalid_definition_columns: "contém colunas de definição inválidas"
+              invalid_content_cells: "contém células inválidas"
+              invalid_rows_count: "deve ter entre 4 e 8 linhas"
+        collective:
+          attributes:
+            base:
+              cannot_be_root: "apenas coletivos expandidos de gestores podem ser raízes da ODT"
+              parent_blank: "coletivo pai deve ser um coletivo expandido"
+              parent_is_not_an_expanded_collective: "coletivo pai não é um coletivo expandido"
+        document:
+          attributes:
+            expanded_collective:
+              maximum_pictures_count: "Já atingiu o máximo de imagens"
+        import:
+          attributes:
+            status:
+              must_be_builded: "deve ser 'construído'"
+              must_be_confirmed: "deve ser 'confirmado'"
+        minimum_collective:
+          attributes:
+            base:
+              invalid_occupations_number: "Número de funções inválido! O número correto de funções para este tipo de coletivo é %{number}."
+        occupation:
+          attributes:
+            activities:
+              must_be_grouped: "devem estar agrupadas"
+              new_record_valid?: "necessária autorização para criação de função com mesmo nome"
+              name_is_duplicate?: "Nome duplicado"
+        seat:
+          attributes:
+            base:
+              invalid_multi_seat_count: "Uma pessoa multicadeira pode sentar ao máximo em 10 cadeiras"
+              count_in_headcount_invalid: "Uma pessoa não pode ser contada em mais de uma gerência!"
+              invalid_occupations_dedication_percentage_sum: "O somatório dos percentuais de dedicação para cada função deve ficar entre 0% e 100%!"
+              invalid_multi_seat_dedication_percentage_sum: "O somatório dos percentuais de dedicação para cada cadeira deve ficar entre 0% e 100%!"
+              odt_wihout_manager: "não é possível deixar um ramo da ODT sem gestor"
+              blank_occupations_section_index: "não foi possível alocar esta cadeira numa das seções do coletivo"
+              invalid_person_contract_type: "O tipo de contrato da pessoa deve ser o mesmo especificado na cadeira"
+              invalid_person_employee_type: "Uma pessoa ferista não pode sentar numa cadeira não ferista"
+              metadata_missing_reason: "razão não pode ficar em branco"
+              metadata_missing_start_date: "a chave data de início deve estar presente"
+              metadata_missing_end_date:  "a chave data de fim deve estar presente"
+              move_seat_valid?: "Não é possível mover uma cadeira gestora"
+              expanded_collective_valid?: "Não é possível mover uma cadeira gestora"
+        user:
+          attributes:
+            base:
+              confirm_all_fields: "Para fazer login, é necessário confirmar os seguintes campos: %{fields}"
+              confirm_any_fields: "Para fazer login, é necessário confirmar ao menos um dos seguintes campos: %{fields}"
+              phone_already_confirmed: "Telefone já confirmado!"
+              cannot_send_reset_password_sms: "Não foi possível enviar o sms com o link de recuperação de senha."
+              invalid_send_to: "Destinatário não é aceito!"
+            current_password:
+              invalid: "não corresponde a informação em nossos registros. Verifique-a e tente novamente."
+            password:
+              weak: "deve conter pelo menos 8 caracteres, incluindo letras maiúsculas, minúsculas, número e caractere especial"
+        work_shift:
+          attributes:
+            base:
+              invalid_uniqueness: "Um turno deve ser único no sistema"
+      messages:
+        record_change_once: "Este atributo só pode ser modificado uma vez!"
+        record_invalid: "A validação falhou: %{errors}"
+        restrict_dependent_destroy:
+          has_one: Não é possível excluir o registro pois existe um %{record} dependente
+          has_many: Não é possível excluir o registro pois existem %{record} dependentes

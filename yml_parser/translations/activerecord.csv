@@ -1,0 +1,54 @@
+key,pt,en
+pt-BR.activerecord.errors.models.activity.attributes.base.must_be_in_a_group_or_a_subgroup,Deve estar em um grupo ou subgrupo,Must be in a group or subgroup
+pt-BR.activerecord.errors.models.activity.attributes.base.cant_be_in_a_group_and_a_subgroup,Não pode estar em um grupo e um subgrupo ao mesmo tempo,Cannot be in a group and a subgroup at the same time
+pt-BR.activerecord.errors.models.administrator.attributes.password.weak,"Deve conter pelo menos 8 caracteres, incluindo letras maiúsculas, minúsculas, número e caractere especial","Must contain at least 8 characters including uppercase, lowercase, number and special character"
+pt-BR.activerecord.errors.models.autonomy/mapping/by_activity.attributes.base.must_count_one_mapping_association,"O mapeamento deve ser de uma entidade específica (atividade, subgrupo ou grupo)","The mapping must be of a specific entity (activity, subgroup or group)"
+pt-BR.activerecord.errors.models.autonomy/mapping/by_activity.attributes.responsible.must_be_occupation_focal_point,Deve ser o ponto focal da função,Should be the focal point of the function
+pt-BR.activerecord.errors.models.autonomy/mapping/by_occupation.attributes.base.occupation_opened_invalid,Você deve fazer o mapeamento da autonomia por atividades.,You should map autonomy by activity.
+pt-BR.activerecord.errors.models.autonomy/mapping/by_occupation.attributes.base.cannot_standardize_dimensions_scores,Não foi possível formatar as dimensões dadas.,Unable to format the given dimensions.
+pt-BR.activerecord.errors.models.autonomy/mapping/by_occupation.attributes.person_dimensions_scores.invalid_labels,Contém ao menos uma dimensão inválida,Contains at least one invalid dimension
+pt-BR.activerecord.errors.models.autonomy/mapping/by_occupation.attributes.person_dimensions_scores.invalid_scores,Contém ao menos um nivel inválido. O nivel deve estar entre %{min} e %{max},Contains at least one invalid level. The level must be between %{min} and %{max}
+pt-BR.activerecord.errors.models.autonomy/mapping/by_occupation.attributes.responsible_dimensions_scores.invalid_labels,Contém ao menos uma dimensão inválida,Contains at least one invalid dimension
+pt-BR.activerecord.errors.models.autonomy/mapping/by_occupation.attributes.responsible_dimensions_scores.invalid_scores,Contém ao menos um nivel inválido. O nivel deve estar entre %{min} e %{max},Contains at least one invalid level. The level must be between %{min} and %{max}
+pt-BR.activerecord.errors.models.autonomy/pattern.attributes.base.cannot_draft_after_publish,Não é possível criar um rascunho após a publicação,Cannot create a draft after publishing
+pt-BR.activerecord.errors.models.autonomy/pattern.attributes.dimensions.must_be_a_matrix,Deve ser uma matriz,Must be an array
+pt-BR.activerecord.errors.models.autonomy/pattern.attributes.dimensions.invalid_headers,Contém cabeçalho inválido,Contains invalid header
+pt-BR.activerecord.errors.models.autonomy/pattern.attributes.dimensions.invalid_columns,Contém número de colunas inválido,Contains invalid number of columns
+pt-BR.activerecord.errors.models.autonomy/pattern.attributes.dimensions.invalid_definition_columns,Contém colunas de definição inválidas,Contains invalid definition columns
+pt-BR.activerecord.errors.models.autonomy/pattern.attributes.dimensions.invalid_content_cells,Contém células inválidas,Contains invalid cells
+pt-BR.activerecord.errors.models.autonomy/pattern.attributes.dimensions.invalid_rows_count,Deve ter entre 4 e 8 linhas,Must have between 4 and 8 lines
+pt-BR.activerecord.errors.models.collective.attributes.base.cannot_be_root,Apenas coletivos expandidos de gestores podem ser raízes na Visão Local,Only management units can have roots in the Local View
+pt-BR.activerecord.errors.models.collective.attributes.base.parent_blank,O coletivo pai deve ser um coletivo expandido,The parent working group must be an expanded working group
+pt-BR.activerecord.errors.models.collective.attributes.base.parent_is_not_an_expanded_collective,O coletivo pai não é um coletivo expandido,The parent working group is not an expanded working group
+pt-BR.activerecord.errors.models.document.attributes.expanded_collective.maximum_pictures_count,Já atingiu o máximo de imagens,You've reached the maximum number of images
+pt-BR.activerecord.errors.models.import.attributes.status.must_be_builded,Deve ser 'construído',Must be 'built'
+pt-BR.activerecord.errors.models.import.attributes.status.must_be_confirmed,Deve ser 'confirmado',Must be 'confirmed'
+pt-BR.activerecord.errors.models.minimum_collective.attributes.base.invalid_occupations_number,Número de funções inválido! O número correto de funções para este tipo de coletivo é %{number}.,Invalid number of functions! The correct number of functions for this type of working group is %{number}.
+pt-BR.activerecord.errors.models.occupation.attributes.activities.must_be_grouped,Devem estar agrupadas,Must be grouped
+pt-BR.activerecord.errors.models.occupation.attributes.activities.new_record_valid?,Necessária autorização para criação de função com mesmo nome,Authorization required to create a function with the same name
+pt-BR.activerecord.errors.models.occupation.attributes.activities.name_is_duplicate?,Nome duplicado,Duplicate name
+pt-BR.activerecord.errors.models.seat.attributes.base.invalid_multi_seat_count,Uma pessoa multicadeira pode sentar ao máximo em 10 cadeiras,A multi-position person can hold a maximum of 10 positions
+pt-BR.activerecord.errors.models.seat.attributes.base.count_in_headcount_invalid,Uma pessoa não pode ser contada em mais de uma gerência!,A person cannot be counted in more than one management unit!
+pt-BR.activerecord.errors.models.seat.attributes.base.invalid_occupations_dedication_percentage_sum,O somatório dos percentuais de dedicação para cada função deve ficar entre 0% e 100%!,The sum of dedication percentages for each function must be between 0% and 100%!
+pt-BR.activerecord.errors.models.seat.attributes.base.invalid_multi_seat_dedication_percentage_sum,O somatório dos percentuais de dedicação para cada cadeira deve ficar entre 0% e 100%!,The sum of dedication percentages for each position must be between 0% and 100%!
+pt-BR.activerecord.errors.models.seat.attributes.base.odt_wihout_manager,Não é possível deixar um ramo da Visão Local sem gestor,It is not possible to leave a branch of Local View without a manager
+pt-BR.activerecord.errors.models.seat.attributes.base.blank_occupations_section_index,Não foi possível alocar esta cadeira numa das seções do coletivo,It was not possible to allocate this position in one of the sections of the collective
+pt-BR.activerecord.errors.models.seat.attributes.base.invalid_person_contract_type,O tipo de contrato da pessoa deve ser o mesmo especificado na cadeira,The person's contract type must be the same as specified on the position
+pt-BR.activerecord.errors.models.seat.attributes.base.invalid_person_employee_type,Uma pessoa ferista não pode sentar numa cadeira não ferista,A vacation coverage person cannot hold a position that is not for a vacation coverage person
+pt-BR.activerecord.errors.models.seat.attributes.base.metadata_missing_reason,Razão não pode ficar em branco,Reason cannot be blank
+pt-BR.activerecord.errors.models.seat.attributes.base.metadata_missing_start_date,A chave data de início deve estar presente,The start date key must be present
+pt-BR.activerecord.errors.models.seat.attributes.base.metadata_missing_end_date,A chave data de fim deve estar presente,The end date key must be present
+pt-BR.activerecord.errors.models.seat.attributes.base.move_seat_valid?,Não é possível mover uma cadeira gestora,Unable to move a manager position
+pt-BR.activerecord.errors.models.seat.attributes.base.expanded_collective_valid?,Não é possível mover uma cadeira gestora,Unable to move a manager position
+pt-BR.activerecord.errors.models.user.attributes.base.confirm_all_fields,"Para fazer login, é necessário confirmar os seguintes campos: %{fields}","To login, you need to confirm the following fields: %{fields}"
+pt-BR.activerecord.errors.models.user.attributes.base.confirm_any_fields,"Para fazer login, é necessário confirmar ao menos um dos seguintes campos: %{fields}","To login, you must confirm at least one of the following fields: %{fields}"
+pt-BR.activerecord.errors.models.user.attributes.base.phone_already_confirmed,Telefone já confirmado!,Phone already confirmed!
+pt-BR.activerecord.errors.models.user.attributes.base.cannot_send_reset_password_sms,Não foi possível enviar o SMS com o link de recuperação de senha.,Could not send the SMS withthe password recovery link.
+pt-BR.activerecord.errors.models.user.attributes.base.invalid_send_to,Destinatário não é aceito!,Recipient is not accepted!
+pt-BR.activerecord.errors.models.user.attributes.current_password.invalid,Não corresponde a informação em nossos registros. Verifique-a e tente novamente.,The information do not match our records. Please check it and try again.
+pt-BR.activerecord.errors.models.user.attributes.password.weak,"Deve conter pelo menos 8 caracteres, incluindo letras maiúsculas, minúsculas, número e caractere especial","Must contain at least 8 characters including uppercase, lowercase, number and special character"
+pt-BR.activerecord.errors.models.work_shift.attributes.base.invalid_uniqueness,Um turno deve ser único no sistema,A shift must be unique in the system
+pt-BR.activerecord.errors.messages.record_change_once,Este atributo só pode ser modificado uma vez!,This attribute can only be modified once!
+pt-BR.activerecord.errors.messages.record_invalid,A validação falhou: %{errors},Validation failed: %{errors}
+pt-BR.activerecord.errors.messages.restrict_dependent_destroy.has_one,Não é possível excluir o registro pois existe um %{record} dependente,Cannot delete record as there is a dependent %{record}
+pt-BR.activerecord.errors.messages.restrict_dependent_destroy.has_many,Não é possível excluir o registro pois existem %{record} dependentes,Cannot delete record as there are %{record} dependents

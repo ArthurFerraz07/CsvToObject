@@ -1,0 +1,33 @@
+##
+# As its an error based file, all messages should say the OPPOSITE of the condition.
+#
+---
+pt-BR:
+  pundit:
+    errors:
+      accessor_valid?: "Forma de acesso inválida!"
+      collective_belongs_to_user?: "Você não é o gestor deste coletivo."
+      collective_belonged_to_user?: "Você não é o gestor deste coletivo."
+      collective_has_no_manager_descendants?: "Este coletivo contem outras gerencias dentro dele."
+      company_user_belongs_to_user?: "Você não tem acesso a essa permissão."
+      mapping_belongs_to_user?: "Você não tem acesso a esse mapeamento."
+      person_accessor?: "Essa rota só pode ser acessada pela pessoa."
+      person_present?: "Esse usuário não está vinculado a nenhuma pessoa."
+      person_self?: "Você não é essa pessoa."
+      seat_belongs_to_user?: "Você não pode manipular cadeiras nesse coletivo."
+      seat_belonged_to_user?: "Você não pode manipular cadeiras nesse coletivo."
+      situated_user?: "Você não é um usuário Situated"
+      user_admin?: "Você não é um administrador"
+      user_belongs_to_company?: "Você não possui relação com empresa."
+      user_is_focal_point?: "Você não é o ponto focal desta função!"
+      user_is_manager_or_focal_point_or_person?: "Seu usuário não está relacionado com o mapeamento."
+      user_is_person?: "Você não é a pessoa desse mapeamento."
+      user_manager?: "Você não é um gestor."
+      user_present?: "Você não está conectado."
+      user_self?: "Usuário requisitado não é o seu."
+      seat_policy:
+        create?: "Você não tem permissão para criar cadeiras."
+      expanded_collective_policy:
+        create?: "Você não tem permissão para criar coletivos."
+      minimum_collective_policy:
+        create?: "Você não tem permissão para criar coletivos."

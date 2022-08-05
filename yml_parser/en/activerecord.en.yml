@@ -1,0 +1,126 @@
+---
+en:
+  activerecord:
+    errors:
+      models:
+        activity:
+          attributes:
+            base:
+              must_be_in_a_group_or_a_subgroup: Must be in a group or subgroup
+              cant_be_in_a_group_and_a_subgroup: Cannot be in a group and a subgroup
+                at the same time
+        administrator:
+          attributes:
+            password:
+              weak: Must contain at least 8 characters including uppercase, lowercase,
+                number and special character
+        autonomy/mapping/by_activity:
+          attributes:
+            base:
+              must_count_one_mapping_association: The mapping must be of a specific
+                entity (activity, subgroup or group)
+            responsible:
+              must_be_occupation_focal_point: Should be the focal point of the function
+        autonomy/mapping/by_occupation:
+          attributes:
+            base:
+              occupation_opened_invalid: You should map autonomy by activity.
+              cannot_standardize_dimensions_scores: Unable to format the given dimensions.
+            person_dimensions_scores:
+              invalid_labels: Contains at least one invalid dimension
+              invalid_scores: Contains at least one invalid level. The level must
+                be between %{min} and %{max}
+            responsible_dimensions_scores:
+              invalid_labels: Contains at least one invalid dimension
+              invalid_scores: Contains at least one invalid level. The level must
+                be between %{min} and %{max}
+        autonomy/pattern:
+          attributes:
+            base:
+              cannot_draft_after_publish: Cannot create a draft after publishing
+            dimensions:
+              must_be_a_matrix: Must be an array
+              invalid_headers: Contains invalid header
+              invalid_columns: Contains invalid number of columns
+              invalid_definition_columns: Contains invalid definition columns
+              invalid_content_cells: Contains invalid cells
+              invalid_rows_count: Must have between 4 and 8 lines
+        collective:
+          attributes:
+            base:
+              cannot_be_root: Only management units can have roots in the Local View
+              parent_blank: The parent working group must be an expanded working group
+              parent_is_not_an_expanded_collective: The parent working group is not
+                an expanded working group
+        document:
+          attributes:
+            expanded_collective:
+              maximum_pictures_count: You've reached the maximum number of images
+        import:
+          attributes:
+            status:
+              must_be_builded: Must be 'built'
+              must_be_confirmed: Must be 'confirmed'
+        minimum_collective:
+          attributes:
+            base:
+              invalid_occupations_number: Invalid number of functions! The correct
+                number of functions for this type of working group is %{number}.
+        occupation:
+          attributes:
+            activities:
+              must_be_grouped: Must be grouped
+              new_record_valid?: Authorization required to create a function with
+                the same name
+              name_is_duplicate?: Duplicate name
+        seat:
+          attributes:
+            base:
+              invalid_multi_seat_count: A multi-position person can hold a maximum
+                of 10 positions
+              count_in_headcount_invalid: A person cannot be counted in more than
+                one management unit!
+              invalid_occupations_dedication_percentage_sum: The sum of dedication
+                percentages for each function must be between 0% and 100%!
+              invalid_multi_seat_dedication_percentage_sum: The sum of dedication
+                percentages for each position must be between 0% and 100%!
+              odt_wihout_manager: It is not possible to leave a branch of Local View
+                without a manager
+              blank_occupations_section_index: It was not possible to allocate this
+                position in one of the sections of the collective
+              invalid_person_contract_type: The person's contract type must be the
+                same as specified on the position
+              invalid_person_employee_type: A vacation coverage person cannot hold
+                a position that is not for a vacation coverage person
+              metadata_missing_reason: Reason cannot be blank
+              metadata_missing_start_date: The start date key must be present
+              metadata_missing_end_date: The end date key must be present
+              move_seat_valid?: Unable to move a manager position
+              expanded_collective_valid?: Unable to move a manager position
+        user:
+          attributes:
+            base:
+              confirm_all_fields: 'To login, you need to confirm the following fields:
+                %{fields}'
+              confirm_any_fields: 'To login, you must confirm at least one of the
+                following fields: %{fields}'
+              phone_already_confirmed: Phone already confirmed!
+              cannot_send_reset_password_sms: Could not send the SMS withthe password
+                recovery link.
+              invalid_send_to: Recipient is not accepted!
+            current_password:
+              invalid: The information do not match our records. Please check it and
+                try again.
+            password:
+              weak: Must contain at least 8 characters including uppercase, lowercase,
+                number and special character
+        work_shift:
+          attributes:
+            base:
+              invalid_uniqueness: A shift must be unique in the system
+      messages:
+        record_change_once: This attribute can only be modified once!
+        record_invalid: 'Validation failed: %{errors}'
+        restrict_dependent_destroy:
+          has_one: Cannot delete record as there is a dependent %{record}
+          has_many: Cannot delete record as there are %{record} dependents

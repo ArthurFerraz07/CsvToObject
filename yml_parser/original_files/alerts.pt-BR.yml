@@ -1,0 +1,64 @@
+---
+pt-BR:
+  alerts:
+    automatics:
+      priorities:
+        one:
+          color: "#DF522F"
+          subpriorities:
+            one:
+              title: "Unidade gerencial desaderente:"
+              title_highlighted: "baixa autonomia"
+              highlight_color: "#DB2727"
+              description: "Este coletivo de gestor inteiro só tem pessoas com baixa autonomia. Isso representa um risco muito alto."
+            two:
+              title: "Unidade gerencial desaderente:"
+              title_highlighted: "média autonomia"
+              highlight_color: "#E5B800"
+              description: "Este coletivo de gestor inteiro só tem pessoas com média/baixa autonomias. Isso representa um alto risco."
+            three:
+              title: "Coletivo expandido desaderente:"
+              title_highlighted: "baixa autonomia"
+              highlight_color: "#DB2727"
+              description: "Este coletivo inteiro só tem pessoas com baixa autonomia. Isso representa um risco muito alto."
+            four:
+              title: "Coletivo expandido desaderente:"
+              title_highlighted: "média autonomia"
+              highlight_color: "#E5B800"
+              description: "Este coletivo inteiro só tem pessoas com média/baixa autonomias. Isso representa um alto risco."
+        two:
+          color: "#F59134"
+          subpriorities:
+            one:
+              title: "Posição gerencial desaderente:"
+              title_highlighted: "baixa autonomia"
+              highlight_color: "#DB2727"
+              description: "Esta posição unitária de gestor é ocupada por uma pessoa em desenvolvimento, com pouca experiência nesta função. Ela precisa de mais suporte na sua tomada de decisões."
+            two:
+              title: "Posição gerencial desaderente:"
+              title_highlighted: "média autonomia"
+              highlight_color: "#E5B800"
+              description: "Esta posição unitária de gestor é ocupada por uma pessoa em desenvolvimento, com pouca experiência nesta função. Ela precisa de suporte na sua tomada de decisões."
+            three:
+              title: "Posição unitária desaderente:"
+              title_highlighted: "baixa autonomia"
+              highlight_color: "#DB2727"
+              description: "Esta posição unitária  é ocupada por uma pessoa em desenvolvimento, com alguma experiência nesta função. Ela precisa de mais suporte no seu trabalho."
+            four:
+              title: "Posição unitária desaderente:"
+              title_highlighted: "média autonomia"
+              highlight_color: "#E5B800"
+              description: "Esta posição unitária  é ocupada por uma pessoa em desenvolvimento, com alguma experiência nesta função. Ela precisa de suporte no seu trabalho."
+        three:
+          color: "#FFBD38"
+          subpriorities:
+            one:
+              title: "Coletivo mínimo desaderente:"
+              title_highlighted: "baixa autonomia"
+              highlight_color: "#DB2727"
+              description: "Este coletivo mínimo inteiro só tem pessoas com baixa autonomia. Isso representa um risco muito alto."
+            two:
+              title: "Coletivo mínimo desaderente:"
+              title_highlighted: "média autonomia"
+              highlight_color: "#E5B800"
+              description: "Este coletivo mínimo inteiro só tem pessoas com média/baixa autonomias. Isso representa um alto risco."

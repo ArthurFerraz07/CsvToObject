@@ -1,0 +1,15 @@
+---
+en:
+  errors:
+    csv_parse_error: Error reading CSV! Please check the file.
+    file_name_blank: Blank file name!
+    invalid_people_data: Invalid people data!
+    standard: An error occurred while running the application!
+    status_must_be_created: Status must be 'created'!
+    status_must_be_builded: Status must be 'built'!
+    invalid_accessor: Invalid access scope!
+    cannot_destroy_root_seat: It is not possible to remove 'root' positions from Local
+      View.
+    invalid_collective_destruction_action: Invalid removal action!
+    cannot_destroy_root_collective: It is not possible to remove 'root' working groups
+      from Local View.

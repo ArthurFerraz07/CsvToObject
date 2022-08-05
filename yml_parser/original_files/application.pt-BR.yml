@@ -1,0 +1,106 @@
+---
+pt-BR:
+  application:
+    default_values:
+      work_unity: 'Unidade central'
+    dimensions:
+      default_label: 'Dimensão'
+      autonomy_levels:
+        none:
+          label: 'Pendente'
+          description: ''
+          color: '#B8B1B1'
+          text_color: '#FFFFFF'
+          secondary_color: '#8A8282'
+          range: '0,0'
+          on_search_label: 'Pendente'
+        low:
+          label: 'Baixa'
+          description: 'autonomia'
+          color: '#EA4A4A'
+          text_color: '#FFFFFF'
+          secondary_color: '#EA4A4A'
+          range: '1,4'
+          on_search_label: 'Baixa autonomia'
+        mid:
+          label: 'Média'
+          description: 'autonomia'
+          color: '#FECD20'
+          text_color: '#433C3C'
+          secondary_color: '#FECD20'
+          range: '5,8'
+          on_search_label: 'Média autonomia'
+        high:
+          label: 'Alta'
+          description: 'autonomia'
+          color: '#59E968'
+          text_color: '#433C3C'
+          secondary_color: '#59E968'
+          range: '9,12'
+          on_search_label: 'Alta autonomia'
+        undetermined:
+          label: 'Indefinida'
+          description: ''
+          color: '#B8B1B1'
+          text_color: '#FFFFFF'
+          secondary_color: '#8A8282'
+          on_search_label: 'Indefinida'
+        draft:
+          label: 'Pendente'
+          description: ''
+          color: '#B8B1B1'
+          text_color: '#FFFFFF'
+          secondary_color: '#8A8282'
+          on_search_label: 'Pendente'
+        published:
+          label: 'Concluído'
+          description: ''
+          color: '#B8B1B1'
+          text_color: '#FFFFFF'
+          secondary_color: '#8A8282'
+          on_search_label: 'Concluído'
+      disagreement_levels:
+        low:
+          prefix: 'Diferença'
+          label: 'aceitável'
+          suffix: ''
+          description: 'Os mapeamentos da pessoa e do gestor apresentaram uma diferença aceitável, menor ou igual a duas casas.'
+          color: '#433C3C'
+          text_color: '#FFFFFF'
+          on_search_label: 'Diferença aceitável'
+        high:
+          prefix: ''
+          label: 'Alta'
+          suffix: 'Diferença'
+          description: ''
+          color: '#FF3A99'
+          text_color: '#433C3C'
+          on_search_label: 'Alta diferença'
+        undetermined:
+          prefix: ''
+          label: 'Sem'
+          suffix: 'diferença'
+          description: ''
+          color: '#433C3C'
+          text_color: '#FFFFFF'
+          on_search_label: 'Sem diferença'
+    messages:
+      forgot_username:
+        subject: "Esqueceu seu username?"
+        body: "Este é o username da sua conta Guidance: %{username}"
+    sms:
+      new_code: "Este é o código de confirmação da sua conta Guidance: \n %{code}"
+      forgot_password: "Clique no link a seguir para recuperar a senha da sua conta Guidance. \n %{url}"
+    seats:
+      actions:
+        destroy: "Excluir cadeira"
+        full_update: "Editar cadeira"
+        move: "Mover cadeira"
+        person_update: "Editar cadeira"
+        show_autonomy: "Ver autonomia"
+    collectives:
+      actions:
+        destroy: "Excluir coletivo"
+        full_update: "Editar coletivo"
+        responsible_update: "Editar coletivo"
+        move: "Mover coletivo"

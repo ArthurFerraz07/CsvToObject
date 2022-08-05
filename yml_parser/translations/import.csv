@@ -1,0 +1,28 @@
+key,pt,en
+pt-BR.import.description_table_headers.column,Coluna,Column
+pt-BR.import.description_table_headers.type,Tipo,Type
+pt-BR.import.description_table_headers.format,Formato,Format
+pt-BR.import.description_table_headers.description,Descrição,Description
+pt-BR.import.person.keys.full_name,Nome completo,Full name
+pt-BR.import.person.keys.social_name,Nome social,Social name
+pt-BR.import.person.keys.birthdate,Data de nascimento,Date of birth
+pt-BR.import.person.keys.cpf,CPF,CPF (Brazilian Identity)
+pt-BR.import.person.keys.corporate_email,E-mail corporativo,Company email
+pt-BR.import.person.keys.personal_email,E-mail pessoal,Personal email
+pt-BR.import.person.keys.profile_picture_url,Foto de perfil,Profile picture
+pt-BR.import.person.keys.internal_phone,Ramal,Extension number
+pt-BR.import.person.keys.corporate_phone,Celular corporativo,Company mobile
+pt-BR.import.person.keys.personal_phone,Celular pessoal,Personal mobile
+pt-BR.import.person.keys.corporate_registration,Número de matrícula,Employee number
+pt-BR.import.person.keys.last_start_date,Data da última admissão,Last date of hire
+pt-BR.import.person.keys.contract_type,Vínculo com a empresa,Type of labor contract
+pt-BR.import.person.keys.third_party_company,Empresa terceira,Third Party
+pt-BR.import.person.keys.other_contract,Outro vínculo,Other internal contracts
+pt-BR.import.person.keys.job_title,Cargo,Job title
+pt-BR.import.person.keys.manager,Gestor? (Sim/não),Manager? (Yes/No)
+pt-BR.import.person.keys.work_unity,Unidade de trabalho,Business Unit
+pt-BR.import.person.keys.management,Gerência,Management unit
+pt-BR.import.person.keys.direct_manager_cpf,Gestor direto,Direct manager
+pt-BR.import.person.keys.work_shift_start_time,Turno de trabalho (Horário Início),Work shift (Start Time)
+pt-BR.import.person.keys.work_shift_end_time,Turno de trabalho (Horário Fim),Work shift (End Time)
+pt-BR.import.person.keys.status,Status,Status

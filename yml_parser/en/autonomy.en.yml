@@ -1,0 +1,107 @@
+---
+en:
+  autonomy:
+    mapping:
+      tooltips:
+        disagreements:
+          header:
+            title: Understand the calculation
+            description: O cálculo do grau da diferença é realizado a partir da diferença
+              das respostas do seu mapeamento e do automapeamento. A nível de função,
+              leva em consideração os valores dados nas dimensões, sendo 0 a 2 baixa
+              e 2 a 12 alta. Já a nível de atividade, utiliza os valores de autonomia
+              dados para cada atividades, sendo 0 a 1 baixa e 1 a 12 alta.
+        level:
+          draft:
+            title: 
+            description: 'This value is partial and refers to the autonomy mapping
+              you did. The final value depends on two mappings: the manager''s mapping
+              and the employee''s self-mapping.'
+          person_published:
+            title: 
+            description: This value is partial and refers only to the result of this
+              person's self-mapping
+          responsible_published:
+            title: 
+            description: This value is partial and refers only to the manager's mapping
+              of this person
+          undetermined_autonomy:
+            title: 
+            description: The autonomy is pending because the two mappings present
+              a high difference between them.
+      by_occupation:
+        tooltips:
+          autonomy:
+            draft?:
+              title: Mapping pending
+              description: Map this person's autonomy to view the result
+            info:
+              title: Autonomy
+              description: Level of expertise assigned to the person
+            responsible_should_publish?:
+              title: 
+              description: Map this person's autonomy to view the result
+            self_mapping_pending?:
+              title: This result of autonomy is partial
+              description: 'For the result to be complete, two mappings are needed:
+                the manager''s mapping and the employee''s self-mapping.'
+            undetermined_autonomy?:
+              title: 
+              description: We suggest identifying the function's activites for a more
+                precise mapping
+          disagreement_by_activity:
+            high:
+              title: 
+              description: A difference in activities indicates that those involved
+                are misaligned in relation to the calculated autonomy value, being
+                necessary to carry out a new mapping together
+          disagreement_by_occupation:
+            high_locked:
+              title: Access this person's autonomy area to see where the high difference
+                lies
+              description: The difference between the mappings was equal to two dashes
+                in most dimensions or was greater than three dashes in any dimension
+            high_unlocked:
+              title: Talk to your team member to understand the difference between
+                mappings
+              description: The difference between the mappings was equal to two dashes
+                in most dimensions or was greater than three dashes in any dimension
+            low:
+              title: The difference is acceptable, no need to remap
+              description: The difference will be "acceptable" when it is less than
+                or equal to two dashes
+            undetermined:
+              title: Nothing to do
+              description: The difference is acceptable, with no need to re-map. The
+                difference will be acceptable when it is less than or equal to two
+                dashes
+          level:
+            draft:
+              title: 
+              description: 'This value is partial and refers to the autonomy mapping
+                you did. The final value depends on two mappings: the manager''s mapping
+                and the employee''s self-mapping.'
+            person_published:
+              title: 
+              description: This value is partial and refers only to the result of
+                this person's self-mapping
+            responsible_published:
+              title: 
+              description: This value is partial and refers only to the manager's
+                mapping of this person
+            undetermined_autonomy:
+              title: 
+              description: The autonomy is pending because the two mappings present
+                a high difference between them.
+          person_status:
+            person_draft:
+              title: This person needs to do their self-mapping.
+              description: 'For the result to be complete, two mappings are needed:
+                the manager''s mapping and the employee''s self-mapping.'
+          specificity:
+            activity:
+              title: 
+              description: Mapping by activity carried out by the focal point
+            occupation:
+              title: 
+              description: This mapping is being performed at the function level

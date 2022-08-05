@@ -1,0 +1,19 @@
+---
+en:
+  mailer:
+    hello: Hi %{name}!
+    how_are_you: how are you doing?
+    welcome: welcome
+    regards: Sincerely,
+    team_name: "<b> Tacito team. </b>"
+    footer: Automated email. Do not reply to this message.
+    at: to the
+    contact_paragraph: If you have any question, suggestion or complaint, contact
+      us by phone %{contact_phone} or email %{contact_email},
+    user:
+      reset_password:
+        button: Reset password
+        paragraph_1: We were notified that you forgot your password.
+        paragraph_2: 'Click in the button below to reset your passsword and recover
+          your access to Tacito:'
+        paragraph_3: change your password immediately in the "user area" of Tacito

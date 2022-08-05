@@ -1,0 +1,536 @@
+key,pt,en
+words.active,Ativo,Active
+words.admin,Administrador,Administrator
+words.away,Afastado,On leave
+words.common,Simples,Simple
+words.covering,Ferista,Vacation coverage worker
+words.demanded,Demandada,Required
+words.email,Email,Email
+words.hiring,Contratando,Hiring
+words.in,de,of
+words.inactive,Inativo,Inactive
+words.manager,Gestor,Manager
+words.low,baixa,low
+words.mid,média,medium
+words.high,alta,high
+words.own,Próprio,Company employee
+words.password,Senha,Password
+words.planning,Planejamento,Planning
+words.positions,posições,positions
+words.return,Retorno,Return
+words.road,Estrada,Road
+words.shift,Turno,Shift
+words.signIn,Entrar,Enter
+words.third,Terceiro,Third party employee
+words.vacation,Férias,Vacation
+words.solved,Resolvidos,Solved
+words.all,Todos,All
+words.alerts,Alertas,Alerts
+words.toDelete,Deletar,Delete
+words.toExclude,Excluir,Delete
+words.toEdit,Editar,Edit
+words.toSave,Salvar,Save
+words.toCancel,Cancelar,Cancel
+words.toConclude,Concluir,Conclude
+words.toPublish,Publicar,Publish
+words.dimensions,Dimensões,Dimensions
+words.success,Sucesso,Success
+words.partial,Parcial,Partial
+words.undeterminable,Indefinido,TBD
+words.name,Nome,Name
+words.toContinue,Continuar,Continue
+words.toCollapse,Recolher,Hide
+words.toExpand,Expandir,Expand
+words.concluded,Concluído,Finished
+words.disagreement,"Diferença ",Difference
+words.toMap,Mapear,To Map
+words.autonomy,Autonomia,Autonomy
+words.you,Você,You
+words.result,Resultado,Result
+words.selfMapping,Automapeamento,Self-mapping
+words.toSearch,Pesquisar,Search
+words.toFind,Buscar,Search
+words.toClean,Limpar,Clean
+words.profile,Perfil,Profile
+words.toView,Visualizar,View
+words.toChange,Alterar,Change
+words.next,Próximo,Next
+words.toMove,Mover,Move
+words.responsible,Responsável,In charge
+words.thereIs,Há,
+words.completed,Completo,Complete
+words.collective,Coletivo,Working Group
+words.goBack,Voltar,Return
+words.genericManager,Gestor(a),Manager
+words.today,Hoje,Today
+words.yesterday,Ontem,Yesterday
+words.toApply,Aplicar,Apply
+words.inProgress,Em andamento,In progress
+words.at1,às,at
+words.warning,Atenção,Attention
+words.toFilter,Filtrar,Filter
+words.toClose,Fechar,Close
+words.tool,Ferramentas,Tools
+words.toCreate,Criar,Create
+words.seat,Cadeira,Position
+words.actions,Ações,Actions
+words.toRemake,Refazer,Redo
+words.total,Total,Total
+words.closeTab,Fechar aba,Close tab
+plural.open_one,Aberta,Open
+plural.open_other,Abertas,Open
+plural.emphases_one,Ênfase,Enphasis on
+plural.emphases_other,Ênfases,Enphases on
+plural.functions_one,Função,Function
+plural.functions_other,Funções,Functions
+plural.others_one,Outro,Other
+plural.others_other,Outros,Others
+plural.people_one,Pessoa,Person
+plural.people_other,Pessoas,Persons
+plural.pending_one,Pendente,Pending
+plural.pending_other,Pendentes,Pending
+plural.selected_one,Selecionado,Selected
+plural.selected_other,Selecionados,Selected
+plural.day_one,{{dayCount}} Dia,{{dayCount}} Day
+plural.day_other,{{dayCount}} Dias,{{dayCount}} Days
+plural.month_one,{{monthCount}} Mês,{{monthCount}} Month
+plural.month_other,{{monthCount}} Meses,{{monthCount}} Months
+plural.year_one,{{yearCount}} Ano,{{yearCount}} Year
+plural.year_other,{{yearCount}} Anos,{{yearCount}} Years
+errorMessages.recoverySendEmail,Erro ao enviar email de recuperação de senha,Error in sending the password recovery email
+errorMessages.createCollective,Erro ao tentar criar o coletivo,Error in trying to create the working group
+errorMessages.noEqualPassword,As senhas devem ser iguais,The passwords must be the same
+errorMessages.unsupportedFormat,Formato não suportado,Format not supported
+errorMessages.importFail,Ocorreu um erro inesperado na importação do arquivo,Unexpected error to import the file
+errorMessages.notFoundFunctionName,Não há função cadastrada com este nome!,There is no function with this name in the database!
+errorMessages.notFoundFunctionPlace,Não há local cadastrado para esta função!,There is not a local associated to this function in the database!
+errorMessages.notFoundPeopleName,Não existe pessoa criada com este nome!,There is not a person with this name in the database!
+errorMessages.notFoundBondName,Não há vínculo contratual cadastrado com este nome!,"There is no labor contract with this name in the database! "
+errorMessages.notFoundHourName,Não há horário cadastrado com este nome!,There is no working hours in the database with this name!
+errorMessages.notFoundPlaceName,Não há local cadastrado com este nome!,There is no location with this name in the database !
+errorMessages.notFoundThirdPartyName,Não há empresa terceira cadastrada com este nome!,There is no third party with this name in the database!
+errorMessages.functionIsAlreadySelected,"Esta função já está selecionada, selecione outra função!",This function is already selected. Select another one!
+errorMessages.canNotMoveTheSeat,Não é possível mover a cadeira para este coletivo!,It is impossible to move this position to this working group!
+errorMessages.canNotDeleteTheSeat,Não é possível mover a cadeira para este coletivo!,It is impossible to move this position to this working group!
+errorMessages.canNotBeTheSame,Não pode ser igual,It cannot be the same
+errorMessages.chooseAnotherPlace,Escolher outro local,Choose another location
+errorMessages.minimumFileSizeSupported,Tamanho máximo suportado do arquivo é de {{mbSize}}MB,Maximum accepted file size is {{mbSize}}MB
+errorMessages.supportedImageFile,Aceitamos apenas arquivos no formato PNG ou JPEG,We only accept files in PNG or JPEG format.
+errorMessages.requiredChooseAManager,Você deve escolher um gestor,You must choose a manager
+errorMessages.numberOfErrorsFoundOnSheet,Foram encontrados {{number}} erros nesta planilha. Corrija-os e importe novamente,{{number}} errors were found in this worksheet. Fix them and re-import
+errorMessages.onlyResponsibleCanSeeTheMapping,Apenas o responsável pelo mapeamento desta pessoa consegue acessar a área para o seu mapeamento no nível da função,Only the person in charge of mapping this person has access to the mapping area at the function level
+errorMessages.doNotShowItAgain,Não mostrar novamente,Do not show again
+errorMessages.unexpectedErrorToSearchODT,"Erro inesperado ao buscar a Visal Local, tente atualizar a página.","Unexpected error fetching Frontline View, try refreshing the page."
+containers.peopleLevel,Nível de autonomia atual da pessoa,Person's current level of autonomy
+containers.realAutonomy,Autonomia Real,Current Autonomy
+containers.plannedAutonomy,Autonomia Planejada,Planned Autonomy
+containers.positionLevel,Nível de autonomia planejada para esta posição,Level of autonomy planned for this position
+containers.ofThisFunction,desta função,of this function
+containers.specificFocus,Foco específico,Specific focus
+containers.missingDays_one,falta {{count}} dia,{{count}} day left
+containers.missingDays_others,faltam {{count}} dias,{{count}} days left
+containers.placeFunction,Local onde a função,Location where the function
+containers.isExercised,é exercida,is carried out
+containers.viewLess,ver menos,see less
+containers.viewAll,ver todas,see all
+containers.workplace,Local de trabalho,Workplace
+containers.mappedTeam,da equipe mapeada,of the mapped team
+containers.toOpenActivities,a abrir atividades,activities to be identified
+containers.withoutOpenFunctions,Sem atividades abertas,Activities to be identified
+containers.allFunctionsOpen,Atividades abertas,Activities identified
+containers.totalTimePercentage,Porcentagem do tempo total da pessoa nesta função,Percentage of the person's total time in this function
+containers.menuTab1Label,Visão Local,Frontline View
+containers.menuTab1Tooltip,"Aqui você visualizará quem trabalha em cada função, seja em posições unitárias ou coletivos de trabalho expandidos ou mínimos","Here you will see who works in each function, whether in unitary position or in expanded or smallest working groups"
+containers.menuTab2Label,Visão Liderança,Leadership View
+containers.menuTab2Tooltip,Aqui você visualizará o nível de autonomia de todos os coletivos de gestores(as) que estão hierarquicamente sob sua gestão,Here you will see the autonomy level of all the managers' working groups that are hierarchically under your management
+containers.menuTab3Label,Expertise,Expertise
+containers.menuTab3Tooltip,"Aqui você encontrará seu nível de autonomia, das pessoas que gerencia (se for gestor) e/ou das funções das quais é 'ponto focal'","Here you will find the level of autonomy of yourself, the people you manage (if you are a manager) and/or the functions for which you are the 'focal point'"
+containers.withActionPlan,Com planos de ação,With Action Plans
+containers.areNotAlerts,Não são alertas,These are not alerts
+containers.tryOthersPriorities,Tente por outras prioridades,Try for other priorities
+containers.alertNotFoundStatus,Não exitem alertas com este status,There are no alerts with this status
+containers.alertNotFoundPriority,Não existem alertas com esta prioridade,There are no alerts with this priority
+containers.showActionPlan,Ver plano de ação,See action plan
+containers.priority1,Prioridade 1,Priority 1
+containers.priority2,Prioridade 2,Priority 2
+containers.priority3,Prioridade 3,Priority 3
+containers.duplicateDimension,Duplicar Dimensão,Duplicate Dimension
+containers.addDimension,Adicionar Dimensão,Add Dimension
+containers.addPerson,Adicionar Pessoa,Add Person
+containers.clickToDescribeDimension,Clique aqui para descrever a dimensão,Click here to describe the dimension
+containers.cancelEdit,Cancelar edição,Cancel edit
+containers.tacitoPattern,Usar padrão tácito,Use Tacito standard
+containers.dimensionMinTooltip,O mínimo é de {{number}} dimensões para publicação.,The minimum is {{number}} dimensions for publication.
+containers.dimensionMaxTooltip,O máximo é de {{number}} dimensões para publicação.,The maximum is {{number}} dimensions for publication.
+containers.configCompanyAutonomyPattern,Configure o padrão de autonomia da sua organização.,Set up your organization's autonomy standard.
+containers.thisIsTacitoPattern,Este é o padrão Tácito,This is the Tacito standard
+containers.thisIsCurrentPattern,Este é o padrão vigente em sua organização.,This is the current standard for your organization
+containers.publishedPattern,Padrão Publicado,Standard published
+containers.autonomyLevels,Níveis de autonomia,Levels of autonomy
+containers.minimumAllowedDimensions,Mínimo de 4 dimensões e o máximo de 8 dimensões,Minimum of 4 dimensions and maximum of 8 dimensions
+containers.withoutCollectivesModalTitle,Este resultado não está em nenhum coletivo,This result is in no working group
+containers.clearSearch,Limpar busca,Clear search
+containers.pressKeyToSearch,Aperte o Enter para buscar,Push Enter to search
+containers.totalResults_one,{{count}} Resultado,{{count}} Result
+containers.totalResults_other,{{count}} Resultados,{{count}} Results
+containers.peopleAndSeats,Pessoas e Cadeiras,Persons and Positions
+containers.onlyPeople,Apenas Pessoas,Only Persons
+containers.nanoVision,Nanovisão,Nanovision
+containers.withoutMapping,Sem mapeamento,Without mapping
+containers.createNewString_male,Criar novo {{string}},Create new {{string}}
+containers.createNewString_female,Criar nova {{string}},Create new {{string}}
+containers.emailPlaceholder,Digite seu email de acesso,Type your access email
+containers.passwordPlaceholder,Digite sua senha,Type your password
+containers.photoSent,Nova foto enviada com sucesso!,New picture uploaded succesfully!
+containers.photoRemoved,Foto removida com sucesso!,Photo successfully removed!
+containers.seatRemoved,Cadeira removida com sucesso!,Position successfully removed!
+containers.sendPhoto,Enviar nova foto,Upload a new picture
+containers.lineNumber,Linha {{number}},Line {{number}}
+containers.peopleAddedOnSystem_one,{{count}} pessoa será adicionada ao sistema,{{count}} person will be added to the system
+containers.peopleAddedOnSystem_other,{{count}} pessoas serão adicionadas ao sistema,{{count}} persons will be added to the system
+containers.peopleUpdatedOnSystem_one,{{count}} pessoa será atualizada ao sistema,{{count}} person will be updated in the system
+containers.peopleUpdatedOnSystem_other,{{count}} pessoas serão atualizadas ao sistema,{{count}} persons will be updated in the system
+containers.peopleRemovedOnSystem_one,{{count}} pessoa será removida ao sistema,{{count}} persons will be removed from the system
+containers.peopleRemovedOnSystem_other,{{count}} pessoas serão removidas ao sistema,{{count}} person will be removed from the system
+containers.importWarning,Estou ciente de que essa ação é irreversível e concordo com essas atualizações,I am aware that this action is irreversible and I agree to these updates.
+containers.tableLoadingMore,Carregando mais dados na tabela...,Loading more data into the spreadsheet...
+containers.personExpertiseLevel,Nível de expertise atribuído à pessoa,Level of expertise assigned to the person
+containers.minimumCollective,Coletivo Mínimo,Smallest Working Group
+containers.expendedCollective,Coletivo Expandido,Expanded Working Group
+containers.whatsappModalTitle,Queremos te ouvir!,We want to hear you!
+containers.whatsappModalSubtitle,"Clique aqui para abrir o Whatsapp Web e mandar um texto, áudio ou vídeo com suas dúvidas, problemas e sugestões de melhoria.","Click here to open the Whatsapp Web and send a text, audio or video with your questions, problems faced and suggestions."
+containers.whatsappModalBody,,
+containers.whatsappNumberModal,Contato: {{number}},Contact: {{number}}
+containers.stringIsInOthersSeat,{{string}} está também em outras cadeiras,{{string}} is also in other positions
+containers.inYourManagement,Na sua gestão,In your management unit
+containers.inString,de {{string}},of {{string}}
+containers.youAreHere,Você está aqui,You are here
+containers.clickHereToAccess,Clique para acessar,Click to get access
+containers.ownBusy,Próprias ocupadas,Occupied company positions
+containers.ownEmpty,Próprias vazias,Vacant company positions
+containers.seatCount,Contagem de cadeiras,Position count
+containers.column,Coluna,Column
+containers.infoType,Tipo de Informação,Type of Information
+containers.format,Formato,Format
+containers.whichIs,O que é,What it is
+containers.degreeOfDisagreement,Diferença entre Mapeamentos,Difference between Mappings
+containers.allMyCollectives,Todos os meus coletivos,All my working groups
+containers.simultaneousMapping,Mapear simultaneamente,Map simultaneously
+containers.autonomyMapping,Mapeamento da Autonomia,Autonomy Mapping
+containers.forString,Por {{string}},For {{string}}
+containers.resolveDisagreement,Veja a diferença,See the difference
+containersAutonomy.successMappingModalTitle,Mapeamento enviado com sucesso!,Mapping sent successfully!
+containersAutonomy.successMappingModalBody,O resultado final da autonomia é calculado quando todos os envolvidos concluem os mapeamentos,The final result of autonomy is calculated when everyone involved completes the mappings
+containersAutonomy.concludeMapping,Concluir Mapeamento,Finish Mapping
+containersAutonomy.newMapping,Novo Mapeamento,New Mapping
+containersAutonomy.justificationHighDisagreementModalTitle,"Devido à alta diferença, você deve conversar com seu gestor antes de prosseguir. Após a conversa, justifique abaixo o motivo para fazer um novo mapeamento.","Due to the high difference, you should talk to your manager before proceeding. After the conversation, justify below the reason for making a new mapping."
+containersAutonomy.justificationModalTitle,"Se fizer um novo mapeamento, o atual será apagado. Justifique abaixo o motivo para re-mapear.","If you map again, the current mapping will be deleted. Justify below the reason for doing a new mapping."
+containersAutonomy.justificationModalBody,"O mapeamento apagado será guardado em nosso banco de dados, mas você não poderá mais acessá-lo.","The deleted mapping will be stored in our database, but you will no longer be able to access it."
+containersAutonomy.justificationPlaceholder,Digite aqui o motivo pelo qual você está mapeando novamente,Enter here the reason you are remapping
+containersAutonomy.submitMappingModalTitle,Deseja concluir o mapeamento?,Do you want to finish the mapping?
+containersAutonomy.submitMappingModalBody,"Ao concluir, você só poderá fazer um novo mapeamento após a finalização do processo.","When finished, you will only be able to do a new mapping after the process is complete."
+containersAutonomy.submitMultiMappingModalBody,"Ao concluir, você só poderá fazer um novo mapeamento após a finalização do processo de mapeamento de cada uma das pessoas.","When finished, you will only be able to do a new mapping after you finish the mapping for each of the people."
+containersAutonomy.autonomyTableModalTitle,Padrão de autonomia e suas dimensões,Standard of autonomy and its dimensions
+containersAutonomy.doTheMappingOnTheSide,Faça o mapeamento ao lado,Map on the right side
+containersAutonomy.waitForTheOtherMapping,Aguarde o outro mapeamento,Wait for the other mapping
+containersAutonomy.waitingForAnswers,Aguardando as respostas,Waiting for the answers
+containersAutonomy.withoutDisagreement,Sem diferença,No difference
+containersAutonomy.withoutResponsible,Sem responsável,No person in charge
+containersAutonomy.acceptableDisagreement,Diferença aceitável,Acceptable difference
+containersAutonomy.highDisagreementBetweenMapping,Alta diferença entre os mapeamentos,High difference between mappings
+containersAutonomy.simultaneousMapping,Mapeamento simultâneo,Simultaneous mapping
+containersAutonomy.cancelMappingModalTitle,Deseja cancelar o mapeamento?,Do you want to cancel the mapping?
+containersAutonomy.cancelMappingModalBody,Todas as informações que você preencheu no mapeamento simultâneo serão perdidas.,All the information you filled in the simultaneous mapping will be lost.
+containersAutonomy.doNotCancel,Não cancelar,Do not cancel
+containersAutonomy.requiredMappedInAllDimension,"Para concluir, é necessário mapear todas as pessoas selecionadas, em todas as dimensões.","To finish, it is necessary to map all selected people, in all dimensions."
+containersAutonomy.autonomyTableWithCompanyName,Padrão de autonomia de {{companyName}},Standard of Autonomy for {{companyName}}
+containersAutonomy.waitForRelease,Aguarde a liberação do resultado,Wait the result to be released
+containersAutonomy.mappingsResult,Resultado dos mapeamentos,Mapping results
+containersAutonomy.mappedDimensions,Dimensões mapeadas,Mapped dimensions
+containersAutonomy.dimensionToMap,Dimensões a mapear,Dimensions to map
+containersAutonomy.autonomyPatterModalTitle,Padrão de autonomia,Autonomy Standard
+containersAutonomy.autonomyPatterModalBody,Clique aqui para consultar o padrão de autonomia completo da sua unidade.,Click here to see the complete autonomy standard for your business unit.
+containersAutonomy.outMappingModalTitle,Deseja sair?,Want to leave?
+containersAutonomy.outMappingModalBody,"Se você continuar, todas as edições serão perdidas e você não conseguirá desfazer esta alteração","If you continue, all changes will be lost and you will not be able to undo it."
+containersAutonomy.dateOnFunction,{{date}} nesta função,{{date}} in this function
+containersAutonomy.selectedFilters,Filtros selecionados,Selected filters
+containersAutonomy.anyHighDisagreementDescription,Os mapeamentos apresentaram uma diferença de 3 ou mais casas em uma ou mais dimensões.,The mappings showed a difference of 3 or more dashes in one or more dimensions.
+containersAutonomy.halfGreaterThenFloorDisagreementDescription,Os mapeamentos apresentaram uma diferença de 2 casas em metade ou mais das dimensões.,The mappings showed a difference of 2 dashes in half or more of the dimensions.
+containersAutonomy.dimensionLevelAutonomy,{{level}} autonomia,{{level}} autonomy
+containersAutonomy.indefiniteAutonomy,Autonomia indefinida,Autonomy TBD
+containersAutonomy.onDate,em {{date}},on {{date}}
+containersAutonomy.autonomyByActivities,Autonomia por Atividades,Autonomy by Activity Level
+containersAutonomy.activitiesHaveNotBeenOpened,As atividades desta função ainda não foram abertas.,The activities for this function have not yet been identified.
+containersAutonomy.highDisagreement,Alta diferença,High difference
+containersAutonomy.responsibleTooltipHighDisagreementInfo,"Para finalizar o mapeamento, libere o resultado para o colaborador clicando no botão abaixo ou revise seu mapeamento clicando em Novo Mapeamento.","To finish mapping, release the results to the employee by clicking on the button below or review your mapping by clicking on New Mapping."
+containersAutonomy.personTooltipHighDisagreementInfoTitle,Converse com seu gestor(a) para entender a diferença entre os mapeamentos,Talk to your manager to understand the difference between the mappings
+containersAutonomy.personTooltipHighDisagreementInfoBody,A diferença entre os mapeamentos foi igual a duas casas na maioria das dimensões ou foi maior do que três casas em qualquer dimensão,The difference between the mappings was equal to two strokes in most dimensions or was greater than three houses in any dimension
+containersAutonomy.releaseMappingResultsTooltipTitle,Liberar o resultado (opcional),Release the result (optional)
+containersAutonomy.releaseMappingResultsTooltipBody,O colaborador poderá ver o seu mapeamento e vocês poderão conversar para entender as diferenças e fazer um novo mapeamento.,The employee will be able to see your mapping and both of you can talk to understand the differences and make a new mapping.
+containersAutonomy.notReleasedMappingResult,Liberar resultado para o colaborador,Release the result to the employee
+containersAutonomy.releasedMappingResult,Resultado liberado para o colaborador,Result released to the employee
+containersAutonomy.mappingStatus,Status dos mapeamentos,Mapping status
+containersAutonomy.autonomyLevel,Nível de autonomia,Level of autonomy
+containersAutonomy.selfMappingPending,Automapeamento pendente,"Self-mapping pending "
+containersAutonomy.responsibleMappingPending,Mapeamento do responsável pendente,Manager's mapping pending
+containersAutonomy.responsibleMapping,Mapeamento do responsável,Manager's mapping
+containersAutonomy.addStartDateOnFunction,Adicionar data de início na função,Add start date in function
+containersAutonomy.editStartDateOnFunction,Editar data de início na função,Edit start date in function
+containersCanvas.newRegisterCreated,Novo registro criado com sucesso,New record created successfully
+containersCanvas.newPlaceCreated,Novo local criado com sucesso!,New location created succesfully!
+containersCanvas.newHourCreated,Novo horário criado com sucesso!,New working time created successfully!
+containersCanvas.newEnfasesCreated,Nova ênfase criada com sucesso!,New emphasis created successfully!
+containersCanvas.newFunctionCreated,Nova função criada com sucesso!,New function created successfully!
+containersCanvas.placeOfCreation,Local de criação da cadeira,Location to create position
+containersCanvas.moveSeat,Mover cadeira para,Move position to
+containersCanvas.functionSearchPlaceholder,Busque e selecione uma função,Search and select a function
+containersCanvas.enfasesSearchPlaceholder,Busque e selecione uma ênfase,Search and select an emphasis
+containersCanvas.placeSearchPlaceholder,Busque e selecione um local,Search and select a location
+containersCanvas.thirdPartyPlaceholder,Busque e selecione uma empresa terceira,Search and select a third party
+containersCanvas.bondPlaceholder,Busque e selecione um vínculo,Search and select a labor contract
+containersCanvas.hourPlaceholder,Busque e selecione um horário,Search and select a working time
+containersCanvas.placePlaceholder,Busque e selecione um local,Search and select a location
+containersCanvas.functionFocalPointPlaceholder,Busque e selecione uma pessoa,Search and select a person
+containersCanvas.functionFocalPointTooltip,O ponto focal é uma pessoa considerada a referência nesta função,The focal point is a person considered the best in this function
+containersCanvas.functionNumber,Função {{number}},Function {{number}}
+containersCanvas.createFunction,Criar nova função,Create new function
+containersCanvas.createEnfases,Criar nova ênfase,Create new emphasis
+containersCanvas.createHour,Criar novo horário,Create new working time
+containersCanvas.createPlace,Criar novo local,Create new location
+containersCanvas.placeFunctionNumber,Local da Função {{number}},Location of the Function {{number}}
+containersCanvas.foundOn,Encontrada em,Found in
+containersCanvas.startHour,Horário início,Start time
+containersCanvas.endHour,Horário fim,End time
+containersCanvas.hourTimePlaceholder,00:00,00:00
+containersCanvas.placeName,Nome do Local,Location name
+containersCanvas.enfasesName,Nome da Ênfase,Emphasis name
+containersCanvas.functionName,Nome da Função,Function name
+containersCanvas.placeNamePlaceholder,Digite um nome para o local,Type a name for the local
+containersCanvas.enfasesNamePlaceholder,Digite um nome para ênfase,Type a name for the emphasis
+containersCanvas.functionNamePlaceholder,Digite um nome para função,Type a name for the function
+containersCanvas.configSeat,Configurar cadeira,Set up the position
+containersCanvas.emptySeat,Cadeira sem pessoa,Empty position
+containersCanvas.optionalSeatFunction,Funções da cadeira (opcional),Position functions (optional)
+containersCanvas.optionalHourPlace,Horário e local da cadeira (opcional),Position working time and location (optional)
+containersCanvas.optionalFunctionFocalPoint,Ponto Focal da Função (opcional),Function Focal Point (optional)
+containersCanvas.addFunction,Adicionar função,Add function
+containersCanvas.bond,Vínculo (tipo de contrato),Type of labor contract
+containersCanvas.thirdParty,Empresa Terceira,Third company
+containersCanvas.bondType,Tipo de vínculo,Type of labour contract
+containersCanvas.functionEditedSuccessfullyModalTitle,Função editada com sucesso!,Function edited successfully!
+containersCanvas.enfasesEditedSuccessfullyModalTitle,Ênfase editada com sucesso!,Emphasis edited successfully!
+containersCanvas.enfasesDeletedSuccessfullyModalTitle,Ênfase excluída com sucesso!,Emphasis deleted successfully!
+containersCanvas.editFunction,Editar função,Edit function
+containersCanvas.editEnfases,Editar ênfase,Edit emphasis
+containersCanvas.definitivelyExclude,Excluir do sistema,Delete from the system
+containersCanvas.seatMovedSuccessfullyModalTitle,Cadeira movida com sucesso!,Position moved successfully!
+containersCanvas.updatedSeatSuccessfullyModalTitle,Cadeira atualizada com sucesso!,Position updated successfully!
+containersCanvas.createdSeatSuccessfullyModalTitle,Cadeira criada com sucesso!,Position created successfully!
+containersCanvas.movingCollectiveHybridModalTitle,Para mover a cadeira para este coletivo será necessário alterar o tipo de coletivo para que se torne um mínimo híbrido. Deseja alterar?,"In order to move the position to this working group, it will be necessary to change its type so that it becomes a hybrid smallest working group. Do you want to change?"
+containersCanvas.movingCollectiveHybridModalBody,"Um coletivo mínimo híbrido trata-se de um coletivo composto por pessoas com até dois conjuntos de funções distintas que trabalham em conjunto, no mesmo local e horário, compartilhando e trocando, entre si, experiências sobre as atividades das funções.","A hybrid smallest working group comprises people with up to two sets of distinct functions who work together, at the same place and time, sharing and exchanging experiences among themselves about the funtions' activities."
+containersCanvas.creatingCollectiveHybridModalTitle,Para criar a cadeira neste coletivo será necessário alterar o tipo de coletivo para que se torne um mínimo híbrido. Deseja alterar?,"In order to create the position in this collective, it will be necessary to change the type of collective so that it becomes a hybrid smallest working group. Do you want to change?"
+containersCanvas.creatingCollectiveHybridModalBody,"Um coletivo mínimo híbrido trata-se de um coletivo composto por pessoas com até dois conjuntos de funções distintas que trabalham em conjunto, no mesmo local e horário, compartilhando e trocando, entre si, experiências sobre as atividades das funções.","A hybrid smallest working group comprises people with up to two sets of distinct functions who work together, at the same place and time, sharing and exchanging experiences among themselves about the funtions' activities."
+containersCanvas.createSeat,Criar cadeira,Create position
+containersCanvas.updateSeat,Atualizar cadeira,Updateposition
+containersCanvas.undoAction,Desfazer ação,Undo action
+containersCanvas.optionalAllocatedPopeneople,Pessoa alocada (opcional),Person allocated (optional)
+containersCanvas.findAndSelectPeoplePlaceholder,Busque e selecione uma pessoa,Search and select a person
+containersCollective.thisCollectiveContains,Este coletivo contém,This working group contains
+containersCollective.openedTotalFunction_one,{{number}} de {{count}} função aberta,{{number}} of {{count}} opened function
+containersCollective.openedTotalFunction_other,{{number}} de {{count}} funções abertas,{{number}} of {{count}} opened functions
+containersCollective.startMapping,Comece a mapear,Start mapping
+containersCollective.yourTeam,sua equipe!,your team!
+containersCollective.teamAutonomy,Autonomia da equipe,Team's autonomy
+containersCollective.teamMapping,Mapeamento da equipe,Team's mapping
+containersCollective.functionsAndActivities,Funções e Atividades,Functions and Activities
+containersCollective.functionsInThisTeam,Funções nesta equipe,Functions in this team
+containersCollective.startToOpen,Comece a abrir,Start opening
+containersCollective.theActivities,As atividades,The activities
+containersCollective.congratulations,Parabéns,Congratulations
+containersCollective.withActivities,Com atividades,With activities
+containersCollective.allActivities,Todas atividades,All the activities
+containersCollective.ofTeamMapped,Da sua equipe mapeada,Of your mapped team
+containersCollective.collectiveDeletedModalTitle,"Deseja excluir este coletivo, incluindo todas as cadeiras nele contidas?","Do you want to delete this working group, including the positions in it?"
+containersCollective.collectiveCreatedSuccessfullyModalTitle,Coletivo criado com sucesso!,"Working group created succesfully! "
+containersCollective.collectiveEditedSuccessfullyModalTitle,Coletivo editado com sucesso!,"Working group edited succesfully! "
+containersCollective.collectiveMovedSuccessfullyModalTitle,Coletivo movido com sucesso!,"Working group moved succesfully! "
+containersCollective.collectiveDeletedModalBody,"Caso você opte por não excluir as cadeiras, elas serão movidas para o coletivo acima do coletivo excluído. As pessoas alocadas neste coletivo não serão removidas do sistema e poderão ser realocadas.","If you choose not to delete the positions, they will be moved to the working group above the deleted one. People allocated to this working group will not be removed from the system and may be relocated."
+containersCollective.notDeleteSeat,Não excluir cadeiras,Do not delete positions
+containersCollective.deleteSeat,Excluir cadeiras,Delete positions
+containersCollective.canNotDeleteTheSeatBody,"Este coletivo é a raiz da Organização e Divisão do Trabalho e não pode ser excluído. Caso necessário, contate o administrador do sistema.","This working group is the root of the Organization and Division of Labor and cannot be moved. If necessary, contact your system administrator."
+containersCollective.canNotMoveTheSeatBody,"Este coletivo é a raiz da Organização e Divisão do Trabalho e não pode ser movido. Caso necessário, contate o administrador do sistema.","This working group is the root of the Organization and Division of Labor and cannot be moved. If necessary, contact your system administrator."
+containersCollective.moveCollectiveTo,Mover coletivo para,Move working group to
+containersCollective.placeOfCreation,Local de criação do coletivo,Location to create the working group
+containersCollective.basicsInformation,Informações Básicas,Basic Information
+containersCollective.collectiveName,Nome do Coletivo,Working Group Name
+containersCollective.basicsInformations,Informações Básicas,Basic Information
+containersCollective.collectiveNamePlaceholder,Digite um nome para o coletivo,Type a name for the working group
+containersCollective.optionalHour,Horário (opcional),Working time (optional)
+containersCollective.optionalPlace,Local (opcional),Location (optional)
+containersCollective.optionalImages,Imagens (opcional),Images (optional)
+containersCollective.minimumConfigCollective,Configurar Coletivo Mínimo,Set up Smallest Working Group
+containersCollective.collectiveType,Tipo de coletivo,Type of working group
+containersCollective.simpleMinimumCollective,Coletivo mínimo simples,Simple smallest working group
+containersCollective.simpleMinimumCollectiveDescription,"Coletivos de pessoas que trabalham juntas na(s) mesma(s) função(ões), trocando experiências sobre as atividades que executam no dia-a-dia","Groups of people who work together in the same function(s), exchanging experiences about the activities they perform on a daily basis"
+containersCollective.hybridMinimumCollective,Coletivo Mínimo Híbrido,Hybrid smallest working group
+containersCollective.hybridMinimumCollectiveDescription,Coletivos de pessoas em até 2 (duas) cadeiras distintas que trabalham juntas trocando experiências sobre as atividades que executam no dia-a-dia,Groups of people in up to 2 (two) different positions who work together exchanging experiences about the activities they perform on a daily basis
+containersCollective.createCollective,Criar coletivo,Create working group
+containersCollective.collectiveManager,Gestor do Coletivo,Working group manager
+containersCollective.personPlaceholder,Busque e selecione uma pessoa,Search and select a person
+containersCollective.managerSeatEmpty,A cadeira do(a) gestor(a) ainda está vazia,The manager's position is still empty
+containersCollective.managerFunction,Função do(a) Gestor(a),Manager's Function
+containersCollective.managerFunctionPlaceholder,Busque e selecione uma função,Search and select a function
+containersCollective.imageFormatDescription,Adicione até 4 imagens (arquivos PNG ou JPEG de até 1mb),Add up to 4 images (PNG or JPEG files) up to 1MB
+containersCollective.configExpendCollective,Configurar Coletivo Expandido,Set up Expanded Working Group
+containersCollective.expendedManagerCollectiveTitle,Coletivo Expandido de Gestor,Manager's Expanded Working Group
+containersCollective.expendedManagerCollectiveDescription,"Possui uma pessoa diretamente responsável pelo gerenciamento do coletivo (alertas, KPIs, planos de ação, etc) e pelas pessoas nele inseridas","It has a person directly responsible for managing the working group (alerts, KPIs, action plans, etc.)"
+containersCollective.simpleExpendedManagerCollectiveTitle,Coletivo Expandido Comum,Simple Expanded Working Group
+containersCollective.simpleExpendedManagerCollectiveDescription,"Coletivo utilizado para separar pessoas que trabalham em áreas geográficas ou processos diferentes, dentro de uma mesma unidade gerencial. O responsável será o(a) gestor(a) do coletivo de gestor no qual ele está inserido","Working group used to separate people who work in different geographic areas or processes, within the same management unit. The person in charge will be the manager of the manager group in which he is inserted"
+containersCollective.collectiveMovedTo,Coletivo movido para {{place}},Working group moved to {{place}}
+containersCollective.submitCollectiveModalTitle,Deseja salvar a edição do coletivo?,"Do you want to save the changes in the working group? "
+containersCollective.submitSimpleCollectiveModalBody,"Ao continuar, o coletivo editado deixará de ser um coletivo expandido simples e se tornará um coletivo expandido de gestor, e consequentemente a cadeira do gestor será criada.","By continuing, the edited working group will no longer be a simple expanded working group and will become a manager expanded working group, and consequently the manager's position will be created."
+containersCollective.submitManagerCollectiveModalBody,"Ao continuar, o coletivo editado deixará de ser um coletivo expandido de gestor e se tornará um coletivo expandido simples, e consequentemente a cadeira de gestor será transformada em cadeira de não gestor.","By continuing, the edited workig group will no longer be an expanded manager working group and will become a simple expanded working group, and consequently the manager position will be transformed into a non-managerial position."
+containersCollective.closeCollectiveCreation,Deseja fechar a aba de criação de coletivo?,Do you want to close the working group creation tab?
+containersCollective.closeCollectiveUpdate,Deseja fechar a aba de atualização de coletivo?,Do you want to close the working group update tab?
+containersCollective.closeSeatCreation,Deseja fechar a aba de criação de cadeira?,Do you want to close the position creation tab?
+containersCollective.closeSeatUpdate,Deseja fechar a aba de atualização de cadeira?,Do you want to close the position update tab?
+containersCollective.confirmCloseCollectiveAction,"Se você continuar, todas as informações que você preencheu serão perdidas e a criação será cancelada.","If you continue, all the information you filled in will be lost and the creation will be cancelled."
+containersCollective.confirmDeleteSeat,Deseja excluir esta cadeira?,Do you want to delete this position?
+containersCollective.confirmCloseMoveSeatTitle,Deseja fechar a aba de mover cadeira?,Do you want to close the tab and move the position?
+containersCollective.seatActionModalContentDelete,"Se você continuar, a cadeira será totalmente excluída e você não poderá desfazer esta ação. A pessoa alocada não será removida do sistema e poderá ser realocada em outro lugar.","If you continue, the position will be completely deleted and you will not be able to undo this action. The allocated person will not be removed from the system and may be relocated elsewhere."
+containersCollective.seatActionModalContentDeleteManager,"A exclusão definitiva de uma cadeira de responsável implica na mudança do coletivo em que ela está inserida, se tornando um coletivo expandido simples e afetando todos os cálculos do coletivo e das pessoas nele inseridas. A pessoa alocada nesta cadeira não será removida do sistema e poderá ser realocada em outro lugar.","The definitive deletion of a manager's position implies in the change of the working group in which it is inserted, becoming a simple expanded working group and affecting all the calculations of the working group and of the people inserted in it. The person allocated to this position will not be removed from the system and may be relocated elsewhere."
+containersCollective.seatActionModalContentFooterDeleteManager,"Ao continuar, essa exclusão não poderá ser desfeita.","By continuing, this deletion cannot be undone."
+containersCollective.confirmCloseTabOnCreation,"Se você continuar, todas as informações que você preencheu serão perdidas e a criação será cancelada","If you continue, all the information you filled in will be lost and the creation will be canceled"
+containersCollective.confirmCloseTabOnUpdate,"Se você continuar, todas as informações que você preencheu serão perdidas e a atualização será cancelada","If you continue, all the information you filled in will be lost and the update will be canceled"
+containersCollective.confirmCloseTabOnMove,"Se você continuar, todas as informações que você selecionou serão perdidas e a movimentação da cadeira será cancelada.","If you continue, all the information you selected will be lost and the position movement will be cancelled."
+components.collectives,Coletivos,Working groups
+components.jobTitles,Cargos,Job titles
+components.occupations,Funções,Functions
+components.people,Pessoas,Persons
+components.howYouSolveAlert,Explique como você resolveu este alerta,Explain how you solved this alert
+components.howYouSolveAlertWithoutActionPlan,"Explique como você resolveu esse problema agora, sem precisar de um Plano de Ação","Explain how you solved this alert, with no need of an Action Plan"
+components.whyThisIsAFakeAlert,Favor justificar porque esse é um falso alerta,Please explain why this is not na alert
+components.justification,Justificativa,Justification
+components.toJustify,Justificar,Justify
+components.ifAlertIsNotAProblem,"Caso você considere que esse alerta não seja um problema real a ser solucionado, favor encerrá-lo apresentando a sua justificativa.","If you consider that this alert is not a real problem to be solved, please close it and give your justification."
+components.priorityLevel,Prioridade {{level}},Priority {{level}}
+components.solveNow,Resolver agora,Solve now
+components.createActionPlan,Criar plano de ação,Create an Action Plan
+components.isNotAnAlert,Não é um alerta,It is not an alert
+components.foundIn,Encontrado em,Found in
+components.filterBy,Filtrar por,Filterby
+components.notFoundResults,Não foi encontrado nenhum resultado,No result was found
+components.useKeywordsToSearch,Tente fazer a pesquisa utilizando outras palavras-chave,Try searching with other keywords
+components.removeImage,Remover Image,Delete Image
+components.importedBy,Importado por,Import by
+components.lowAutonomy,Baixa autonomia,Low autonomy
+components.midAutonomy,Média autonomia,Medium autonomy
+components.highAutonomy,Alta autonomia,High autonomy
+login.tacitoSPresentation,Mapeamento e Desenvolvimento de Expertise,Expertise Mapping and Development
+login.accessYouAccount,Acesse sua conta,Access your account
+login.forgotPasswordLink,Esqueci minha senha,Forgot my password
+login.modalTitle,Entre em contato com o administrador do sistema,Contact the system administrator
+login.modalBody,"Para recuperar sua senha, é necessário contatar o responsável pelo Tacito na sua organização.","To recover your password, it is necessary to contact the person in charge of the Tacito in your organization."
+login.modalNextText,OK,OK
+login.submitButton,Entrar,Enter
+forgotPassword.title,Esqueci minha senha,Forgot my password
+forgotPassword.emailPlaceholder,Seu email cadastrado,Your registered email
+forgotPassword.instructions,"Para recuperar seu acesso, informe seu email cadastrado para te enviarmos um link para redefinição de senha","To recover your access, fill in your registered email so we can send you a link for resetting your password"
+forgotPassword.submitButton,Redefinir Senha,Reset password
+recoveryPassword.title,Redefinição de senha,Password resetting
+recoveryPassword.instruction,Crie abaixo uma nova senha para acessar sua conta,Create below a new password to access your account
+recoveryPassword.passwordPlaceholder,Digite uma nova senha,Type a new password
+recoveryPassword.passwordHelperText,"A senha deverá conter pelo menos 6 caracteres, incluindo letras maiúsculas, minúsculas, um número e um caractere especial","The password must contain at least 6 characters, including uppercase and lowercase letters, a number and a special character"
+recoveryPassword.confirmPassword,Confirmação da senha,Confirm password
+recoveryPassword.confirmPasswordPlaceholder,Confirme a nova senha,Password confirmation
+recoveryPassword.submitButton,Redefinir senha,Reset password
+recoveryPassword.modalTitle,Senha redefinida com sucesso!,Password reset successfully!
+recoveryPassword.modalBody,Siga para o login e acesse o sistema utilizando as novas credenciais.,Go to login and access the system using the new credentials.
+recoveryPassword.modalNextText,Ir para o Login,Go to Login
+changePassword.title,Alterar senha,Change password
+changePassword.successUpdate,Senha atualizada com sucesso!,Password updated succesfully!
+changePassword.currentPassword,Senha atual,Current password
+changePassword.newPassword,Nova senha,New password
+changePassword.confirmPassword,Confirmar nova senha,Confirm new password
+changePassword.cancelButton,Cancelar,Cancel
+changePassword.saveButton,Salvar,Save
+profile.logout,Sair da conta,Log out of account
+profile.yourAccount,Sua conta,Your account
+profile.accountEmail,Email da conta,Account email
+profile.kindOfUser,Tipo de usuário,User type
+profile.username,Nome de usuário,User name
+profile.basicsInformation,Informações Básicas,Basic Information
+profile.yourData,Seus dados,Your data
+profile.fullName,Nome completo,Full name
+profile.yourBirthday,Data de nascimento,Date of birth
+profile.cpf,cpf,CPF (Brazilian Identity)
+profile.dataInformation,Informações de contato,Contact information
+profile.corporateEmail,Email corporativo,Company email
+profile.personalEmail,Email pessoal,Personal email
+profile.corporatePhone,Celular corporativo,Company mobile
+profile.phoneOrTelephoneExtension,Telefone/ramal,Phone number/Extension
+profile.personalPhone,Celular pessoal,Personal mobile
+profile.relationWithCompany,Relação com a empresa,Type of labour contract
+profile.genericPasswordPlaceholder,***********,***********
+emailSent.title,Link para redefinição de senha enviado para,Link for resetting the password sent to
+emailSent.queryEmail,", caso seja este o email cadastrado no sistema",", if this is the email recorded in the system"
+emailSent.accessYourEmail,"Acesse seu email e click no link enviado para redefinir a sua senha. Depois, basta realizar o login para ter acesso ao sistema novamente","Check your email box and click in the link we sent to change your password. Then, just login to get access to the system again"
+emailSent.checkYourSpam,"Certifique-se de conferir sua caixa de spam ou lixo eletrônico. Caso não tenha recebido o link, solicite o reenvio","Be sure to check your email, span and waste boxes. If you have not received the link, ask for it again"
+emailSent.resendLinkButton,Reenviar Link,Resend Link
+emailSent.redirectToLoginButton,Ir para o Login,Go to Login
+people.underConstruction,Em construção,In construction
+functions.underConstruction,Em construção,In construction
+generalView.toastTitle,Clique no nome do coletivo para visualizá-lo na Visão Local,Click in the name of the working group to see it in the Frontline View
+generalView.listEmptyContainer,Este usuário não possui Visão Liderança!,This user does not have the Leadership View!
+generalView.zoomAndNavigation,Zoom e Navegação,Zoom and Navigation
+generalView.tryToUseZoom,Utilize o zoom abaixo,Use the zoom below
+generalView.clickToBackToYourLocation,Clique em sua imagem para voltar para sua localização,Click in your picture to go back to your position
+generalView.clickAndDragToMoveScreen,Clique e arraste para mover a tela,Click and drag to move the screen
+generalView.pressShiftAndScrollWheel,Pressione “Shift” e role a roda do mouse para zoom,"Press ""Shift"" and roll the mouse wheel for zooming"
+lgpd.termsTitle,Termos de uso,Terms of use
+lgpd.iAgreeTerms,Li e concordo com os Termos de Uso,I have read and agree with the Terms of Use
+lgpd.policyTitle,Política de Privacidade,Privacy Policy
+lgpd.iAgreePolicy,Li e concordo com as Políticas de Privacidade,I have read and agree with the Privacy Policy
+lgpd.acceptButton,Aceitar,Accept
+lgpd.refuseButton,Recusar,Decline
+settings.title,AM,AM
+settings.settingCompany,Configurações da sua organização,Your organization settings
+settings.importSheetButton,Importar Planilha,Import Spreadsheet
+settings.importHistoryButton,Histórico de importações,Importation History
+settingsImportation.title,Entenda o padrão de importação do Tacito,Understand the Tacito importation model
+settingsImportation.reading,Estamos fazendo a leitura dos dados do arquivo {{fileName}}. Isso pode levar algum tempo,We are reading the {{fileName}} data. This may take a while
+settingsImportation.importing,Estamos importando o arquivo {{fileName}}. Isso pode levar algum tempo,We are uploading the file {{fileName}}. This may take a while
+settingsImportation.acceptFormat,formato aceito,accepted format
+settingsImportation.description,"Para importar uma planilha e montar a estrutura base da sua organização, você deverá exportá-la como um arquivo CSV.","In order to import a spreedsheet and build the structure of your organization, you must export it in a CSV file."
+settingsImportation.howToFill,Como preencher,How to fill in
+settingsImportation.instruction1,Cada linha da tabela deverá ser preenchida com os dados de uma pessoa da empresa. Entenda melhor quais dados devem ser inseridos em cada coluna:,Each line of the table must be filled in with the data reagarding each employee of the organization. Understand which pieces of data must be filled in in each column:
+settingsImportation.instruction2,Campos marcados com * são obrigatórios,Fields marked with * are compulsory
+settingsImportation.importButton,Importar,Import
+settingsImportation.downloadModelButton,Baixar modelo,Dowload spreedshet model
+settingsImportation.importSuccess,Importação realizada com sucesso!,Succesfull upload!
+settingsImportation.importModalTitle,Confirmar importação?,Confirm upload?
+settingsImportation.importModalNextText,Confirmar e importar,Confirm and import
+settingsHistory.title,Histórico de importação,History of uploads
+settingsHistory.listSectionTitle,Não há histórico de importação no momento,There is no history of uploads so far
+settingsHistory.listSectionDescription,"Assim que a primeira importação for feita, ela poderá ser visualizada nesta página","As soon as the first upload is done, it will appear on this page"
+404error.title,404,404
+404error.description,Esta página não está disponível,This page is unavaliable
+mappers.expanded_collective,Coletivo Expandido,Expanded Working Group
+mappers.in_operation,Em operação,In operation
+mappers.minimum_collective,Coletivo Mínimo,Smallest Working Group
+mappers.non_manager,Não gestor,Non-manager
+mappers.on_vacation,Em férias,On vacation
+mappers.openedVacancies,vagas abertas,Open positions
+mappers.peoplePositions,Pessoas/Posições,Employees/Positions
+mappers.to_hire,A contratar,To be hired
+mappers.other,Outros,Others
+mappers.own,Próprio,Company employee
+mappers.third_party,Terceiro,Contract employee
+validationErrors.numberValidation,Este campo deve ser preenchido somente com números,This field must be filled in with numbers only.
+validationErrors.emailValidation,Insira um email válido,Fill in a valid email
+validationErrors.requiredPassword,Campo senha é obrigatório,Password required
+validationErrors.invalidPhoneNumber,Telefone inválido,Invalid telephone
+validationErrors.textLength,Mínimo de 3 letras,Minimum of 3 letters
+validationErrors.fullName,Escreva o nome completo,Type your full name
+validationErrors.passwordField,"A senha deverá conter pelo menos 6 caracteres, incluindo letras maiúsculas, minúsculas, número e caractere especial","The password must contain at least 6 characters, including uppercase and lowercase letters, number and special character"
+validationErrors.fullNameCharacters,Use somente letras e espaço!,Use only letters and spaces!

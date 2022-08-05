@@ -1,0 +1,13 @@
+---
+pt-BR:
+  errors:
+    csv_parse_error: "erro na leitura do CSV! Por favor, verifique o arquivo."
+    file_name_blank: "nome do arquivo em branco!"
+    invalid_people_data: "dados das pessoas inválidos!"
+    standard: "ocorreu um erro na execução da aplicação!"
+    status_must_be_created: "status deve ser 'criado'!"
+    status_must_be_builded: "status deve ser 'construído'!"
+    invalid_accessor: "Escopo de acesso inválido!"
+    cannot_destroy_root_seat: "Não é possível destruir cadeiras 'raízes' da ODT."
+    invalid_collective_destruction_action: "Ação de destruição inválida!"
+    cannot_destroy_root_collective: "Não é possível destruir coletivos 'raízes' da ODT."

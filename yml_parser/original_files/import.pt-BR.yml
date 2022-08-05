@@ -1,0 +1,33 @@
+---
+pt-BR:
+  import:
+    description_table_headers:
+      column: 'Coluna'
+      type: 'Tipo'
+      format: 'Formato'
+      description: 'Descrição'
+    person:
+      keys:
+        full_name: 'Nome completo'
+        social_name: 'Nome social'
+        birthdate: 'Data de nascimento'
+        cpf: 'CPF'
+        corporate_email: 'E-mail corporativo'
+        personal_email: 'E-mail pessoal'
+        profile_picture_url: 'Foto de perfil'
+        internal_phone: 'Ramal'
+        corporate_phone: 'Celular corporativo'
+        personal_phone: 'Celular pessoal'
+        corporate_registration: 'Número de matrícula'
+        last_start_date: 'Data da última admissão'
+        contract_type: 'Vínculo com a empresa'
+        third_party_company: 'Empresa terceira'
+        other_contract: 'Outro vínculo'
+        job_title: 'Cargo'
+        manager: 'Gestor? (Sim/não)'
+        work_unity: 'Unidade de trabalho'
+        management: 'Gerência'
+        direct_manager_cpf: 'Gestor direto'
+        work_shift_start_time: 'Turno de trabalho (Horário Início)'
+        work_shift_end_time: 'Turno de trabalho (Horário Fim)'
+        status: 'Status'

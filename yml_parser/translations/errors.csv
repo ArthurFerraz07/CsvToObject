@@ -1,0 +1,11 @@
+key,pt,en
+pt-BR.errors.csv_parse_error,"Erro na leitura do CSV! Por favor, verifique o arquivo.",Error reading CSV! Please check the file.
+pt-BR.errors.file_name_blank,Nome do arquivo em branco!,Blank file name!
+pt-BR.errors.invalid_people_data,dados das pessoas inválidos!,Invalid people data!
+pt-BR.errors.standard,Ocorreu um erro na execução da aplicação!,An error occurred while running the application!
+pt-BR.errors.status_must_be_created,Status deve ser 'criado'!,Status must be 'created'!
+pt-BR.errors.status_must_be_builded,Status deve ser 'construído'!,Status must be 'built'!
+pt-BR.errors.invalid_accessor,Escopo de acesso inválido!,Invalid access scope!
+pt-BR.errors.cannot_destroy_root_seat,Não é possível remover cadeiras 'raízes' da Visão Local.,It is not possible to remove 'root' positions from Local View.
+pt-BR.errors.invalid_collective_destruction_action,Ação de remoção inválida!,Invalid removal action!
+pt-BR.errors.cannot_destroy_root_collective,Não é possível remover coletivos 'raízes' da Visão Local.,It is not possible to remove 'root' working groups from Local View.

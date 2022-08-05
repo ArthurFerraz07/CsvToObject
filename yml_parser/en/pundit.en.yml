@@ -1,0 +1,31 @@
+---
+en:
+  pundit:
+    errors:
+      accessor_valid?: Invalid way to gain access!
+      collective_belongs_to_user?: You are not the manager of this working group.
+      collective_belonged_to_user?: You are not the manager of this working group.
+      collective_has_no_manager_descendants?: This working group contains other organizational
+        units within it.
+      company_user_belongs_to_user?: 'You do not have access to this permission. '
+      mapping_belongs_to_user?: 'You do not have access to this mapping. '
+      person_accessor?: This route can only be accessed by the person.
+      person_present?: This user is not linked to any person.
+      person_self?: 'You are not a person. '
+      seat_belongs_to_user?: You cannot manipulate positions in this working group.
+      seat_belonged_to_user?: You cannot manipulate positions in this working group.
+      situated_user?: 'You are not a Situated user. '
+      user_admin?: You are not an administrator
+      user_belongs_to_company?: You have no relationship with this company.
+      user_is_focal_point?: 'You are not the focal point of this function! '
+      user_is_manager_or_focal_point_or_person?: Your user is not related to the mapping.
+      user_is_person?: You are not the person of this mapping.
+      user_manager?: You are not a manager.
+      user_present?: You are not connected to the internet.
+      user_self?: 'The user that was requested is not yours. '
+      seat_policy:
+        create?: You are not allowed to create positions.
+      expanded_collective_policy:
+        create?: You are not allowed to create working groups.
+      minimum_collective_policy:
+        create?: You are not allowed to create working groups.

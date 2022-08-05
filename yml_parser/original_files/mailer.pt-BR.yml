@@ -1,0 +1,18 @@
+# encoding: UTF-8
+# pt-BR translations for Mailers
+pt-BR:
+  mailer:
+    hello: "Olá, %{name}!"
+    how_are_you: "tudo bem?"
+    welcome: "welcome"
+    regards: "Atenciosamente,"
+    team_name: "<b> Time Guidance. </b>"
+    footer: "Este email é automático. Não responda esta mensagem."
+    at: "às"
+    contact_paragraph: "Caso possua qualquer dúvida, sugestão ou reclamação, entre em contato conosco através do telefone %{contact_phone} ou email %{contact_email}."
+    user:
+      reset_password:
+        button: "Redefinir senha"
+        paragraph_1: 'Recebemos a informação que esqueceu sua senha.' 
+        paragraph_2: 'Para recuperar seu acesso e redefinir uma nova senha, clique no botão abaixo:'
+        paragraph_3: 'Caso você não reconheça essa solicitação de recuperação de senha, altere imediatamente sua senha acessando a área do usuário do sistema'

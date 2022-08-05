@@ -1,0 +1,13 @@
+key,pt,en
+pt-BR.mailer.hello,"Olá, %{name}!",Hi %{name}!
+pt-BR.mailer.how_are_you,tudo bem?,how are you doing?
+pt-BR.mailer.welcome,bem-vindo(a),welcome
+pt-BR.mailer.regards,"Atenciosamente,","Sincerely,"
+pt-BR.mailer.team_name,<b> Time Guidance. </b>,<b> Tacito team. </b>
+pt-BR.mailer.footer,Este email é automático. Não responda esta mensagem.,Automated email. Do not reply to this message.
+pt-BR.mailer.at,às,to the
+pt-BR.mailer.contact_paragraph,"Caso possua qualquer dúvida, sugestão ou reclamação, entre em contato conosco através do telefone %{contact_phone} ou email %{contact_email}.","If you have any question, suggestion or complaint, contact us by phone %{contact_phone} or email %{contact_email},"
+pt-BR.mailer.user.reset_password.button,Redefinir senha,Reset password
+pt-BR.mailer.user.reset_password.paragraph_1,Recebemos a informação que esqueceu sua senha.,We were notified that you forgot your password.
+pt-BR.mailer.user.reset_password.paragraph_2,"Para recuperar seu acesso e redefinir uma nova senha, clique no botão abaixo:",Click in the button below to reset your passsword and recover your access to Tacito:
+pt-BR.mailer.user.reset_password.paragraph_3,"Caso você não reconheça essa solicitação de recuperação de senha, altere imediatamente sua senha acessando a área do usuário do sistema","change your password immediately in the ""user area"" of Tacito"

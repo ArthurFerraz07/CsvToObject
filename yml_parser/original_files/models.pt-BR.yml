@@ -1,0 +1,588 @@
+---
+pt-BR:
+  activerecord:
+    models:
+      default:
+        one: registro
+        other: registros
+      activity:
+        one: atividade
+        other: atividades
+      activity_group:
+        one: grupo de atividades
+        other: grupos de atividades
+      activity_subgroup:
+        one: subgrupo de atividades
+        other: subgrupos de atividades
+      address:
+        one: endereço
+        other: endereços
+      administrator:
+        one: administrador
+        other: administradores
+      alert:
+        one: alerta
+        other: alertas
+      alert/automatic:
+        one: alerta automático
+        other: alertas automáticos
+      autonomy:
+        one: autonomia
+        other: autonomias
+      autonomy/mapping:
+        one: mapeamento de autonomia
+        other: mapeamentos de autonomia
+      autonomy/mapping/by_activity:
+        one: mapeamento de autonomia por atividade
+        other: mapeamentos de autonomia por atividade
+      autonomy/mapping/by_occupation:
+        one: mapeamento de autonomia por função
+        other: mapeamentos de autonomia por função
+      autonomy/pattern:
+        one: padrão de autonomia
+        other: padrões de autonomia
+      billing:
+        one: dados de cobrança
+        other: dados de cobranças
+      collective:
+        one: coletivo
+        other: coletivos
+      collective/expanded:
+        one: coletivo expandido
+        other: coletivos expandidos
+      collective/minimum:
+        one: coletivo mínimo
+        other: coletivos mínimos
+      company:
+        one: empresa
+        other: empresas
+      company_user:
+        one: permissão
+        other: permissões
+      contract:
+        one: contrato
+        other: contratos
+      document:
+        one: documento
+        other: documentos
+      emphasis:
+        one: ênfase
+        other: ênfases
+      emphasis_person:
+        one: ênfase/pessoa
+        other: ênfases/pessoas
+      import:
+        one: importação
+        other: importações
+      job_title:
+        one: cargo
+        other: cargos
+      occupation:
+        one: função
+        other: funções
+      occupation_seat:
+        one: função por cadeira
+        other: funções por cadeiras
+      person:
+        one: pessoa
+        other: pessoas
+      plan:
+        one: plano
+        other: planos
+      seat:
+        one: cadeira
+        other: cadeiras
+      tenant:
+        one: cliente
+        other: clientes
+      third_party_company:
+        one: empresa terceira
+        other: empresas terceiras
+      user:
+        one: usuário
+        other: usuários
+      workplace:
+        one: local de trabalho
+        other: locais de trabalho
+      work_schedule:
+        one: horário de trabalho
+        other: horários de trabalho
+      work_shift:
+        one: turno de trabalho
+        other: turnos de trabalho
+    attributes:
+      identifier: identificador
+      default: &default
+        id: identificador
+        hashid: identificador
+        slug: identificador (nome)
+        label: etiqueta
+        name: nome
+        type: tipo
+        kind: categoria
+        in_odt: presente na ODT
+        description: descrição
+        created_at: criado em
+        updated_at: atualizado em
+      activity:
+        <<: *default
+        # Associations
+        occupation: função
+        people: pessoas
+        activity_group: grupo de atividades
+        activity_subgroup: subgrupo de atividades
+      activity_group: &activity_group
+        <<: *default
+        # Associations
+        occupation: função
+        activities: atividades
+        people: pessoas
+        activity_subgroups: subgrupos de atividades
+      activity_subgroup:
+        <<: *activity_group
+        # Associations
+        activity_group: grupo de atividades
+      address:
+        <<: *default
+        street: rua
+        number: número
+        complement: complemento
+        neighborhood: bairro
+        postal_code: cep
+        city: cidade
+        state: estado
+        country: país
+        # Associations
+        user: usuário
+        company: empresa
+      administrator:
+        <<: *default
+        first_name: primeiro nome
+        last_name: sobrenome
+        full_name: nome
+        password: senha
+        password_confirmation: confirmação da senha
+        # Associations
+        user: usuário
+        # Enums
+        kinds:
+          situated_consultant: consultor situated
+          situated_master: master situated
+      alert: &alert
+        <<: *default
+        priority: nível de prioridade
+        title: título
+        description: descrição
+        opened_at: aberto em
+        priority_info: informações sobre a prioridade
+        # Associations
+        collective: coletivo
+        alertable: alertável
+        # Enums
+        priorities:
+          one: um
+          two: dois
+          three: três
+        statuses:
+          open: aberto
+          solved: resolvido
+          justified: justificado
+          with_action_plan: com plano de ação
+      alert/automatic:
+        <<: *alert
+        subpriority: subnível de prioridade
+        # Associations
+        alert: alerta
+        collective: coletivo
+        seat: cadeira
+      autonomy/mapping: &autonomy_mapping
+        <<: *default
+        status: status
+        specificity: mapeamento por
+        person_status: status dado pela pessoa
+        responsible_status: status dado pelo responsável
+        responsible_score: nível dado pelo responsável
+        person_score: nível dado pela pessoa
+        score: nível
+        disagreement_score: nível de diferença
+        undetermined_autonomy: autonomia indeterminada
+        undetermined_disagreement: descordância indeterminada
+        specificity: specificidade
+        # Associations
+        occupation: função
+        person: Pessoa
+        responsible: Responsável
+        # Enums
+        person_statuses:
+          draft: pendente
+          published: concluído
+        responsible_statuses:
+          draft: pendente
+          published: concluído
+        specificities:
+          activity: atividade
+          occupation: função
+        statuses:
+          draft: rascunho
+          published: publicado
+      autonomy/mapping/by_activity:
+        <<: *autonomy_mapping
+        # Associations
+        activity: atividade
+        activity_group: grupo de atividades
+        activity_subgroup: subgrupo de atividades
+        occupation_mapping: mapeamento por função
+      autonomy/mapping/by_occupation:
+        <<: *autonomy_mapping
+        dimensions_disagreements_scores: diferenças por dimensão
+        person_dimensions_scores: nível das dimensões dado pela pessoa
+        responsible_dimensions_scores: nível das dimensões dado pelo responsável
+        dimensions_disagreements_scores: níveis de diferença por dimensão
+        # Associations
+        occupation: função
+        activity_mappings: mapeamentos por atividade
+        # Virtual attributes
+        dimensions: dimensões
+        dimensions_scores: nível nas dimensões
+        autonomy_pattern: padrão de autonomia
+      autonomy/pattern:
+        <<: *default
+        dimensions: dimensões
+        use_default: usar padrão Tácito
+        statuses:
+          draft: rascunho
+          published: publicado
+      billing: &billing
+        <<: *default
+        cnpj: cnpj
+        corporate_name: razão social
+        responsible_name: responsável pela cobrança
+        responsible_phone: telefone do responsável pela cobrança
+        responsible_email: email do responsável pela cobrança
+        observations: observações
+        # Associations
+        address: endereço
+      collective: &collective
+        <<: *default
+        kind: categoria
+        # Associations
+        parent: coletivo pai
+        parent_id: identificador do coletivo pai
+        work_shift: turno
+        workplace: local de trabalho
+        minimum_collectives: coletivos mínimos
+        expanded_collectives: coletivos expandidos
+        seats: cadeiras
+      collective/expanded:
+        <<: *collective
+        # Associations
+        manager_seat: cadeira gestora 
+        # Enums
+        kinds:
+          common: comum
+          manager: de gestor
+      collective/minimum:
+        <<: *collective
+        occupations_sections: seções das funções
+        # Associations
+        occupations: funções
+        # Enums
+        kinds:
+          typical: típico
+          hybrid: híbrido
+      company: &company
+        <<: *default
+        corporate_name: razão social
+        fantasy_name: nome fantasia
+        cnpj: cnpj
+        phone: telefone
+        contract_manager_name: gestor do contrato
+        contract_manager_email: email do gestor do contrato
+        contract_manager_phone: telefone do gestor do contrato
+        state_registration: inscrição estadual
+        municipal_registration: inscrição municipal
+        image_url: url da imagem
+        # Associations
+        companies_users: permissões
+        users: usuários
+      company_user:
+        <<: *default
+        role: função
+        # Associations
+        user: usuário
+        company: empresa
+      contract:
+        <<: *default
+        category: categoria
+        initials: sigla
+        kind: tipo
+        status: status
+        corporate_registration: matrícula
+        start_date: data de início
+        end_date: data de fim
+        substitute: ferista
+        # Associations
+        person: pessoa
+        seats: cadeiras
+        # Enums
+        categories:
+          personal: pessoal
+          to_seats: para cadeiras
+        kinds:
+          own: próprio
+          third_party: terceiro
+          other: outro
+        statuses:
+          active: ativo
+          inactive: inativo
+      document:
+        <<: *default
+        title: título
+        description: descrição
+        url: url
+        kind: categoria
+        # Associations
+        expanded_collective: coletivo expandido
+        expanded_collective_id: id do coletivo expandido
+        # Methods
+        picture: imagem
+        # Enums
+        kinds:
+          picture: imagem
+      emphasis:
+        <<: *default
+        # Associations
+        occupation: função
+        people: pessoas
+        seats: cadeiras
+      emphasis_person:
+        <<: *default
+        # Associations
+        emphasis: ênfase
+        person: pessoa
+        occupation_name: nome da função
+        emphasis_name: nome da ênfase
+      import:
+        <<: *default
+        file_extension: extensão do arquivo
+        file_url: url do arquivo
+        confirmed_at: confirmado em
+        started_at: iniciado em
+        finished_at: finlizado em
+        # Associations
+        user: usuário
+        people: pessoas
+      job_title:
+        <<: *default
+        # Associations
+        people: pessoas
+        seats: cadeiras
+        collectives: coletivos
+      occupation:
+        <<: *default
+        opened?: atividades abertas?
+        # Associations
+        occupation: função
+        seats: cadeiras
+        emphases: ênfases
+        people: pessoas
+        activities: atividades
+        activity_groups: grupos de atividades
+        focal_point: ponto focal
+      occupation_seat:
+        <<: *default
+        emphasis_ids: ids das ênfses
+        emphases: ênfases
+        dedication_percentage: percentual de dedicação
+        autonomy_score: nível de autonomia
+        planned_autonomy_score: nível de autonomia planejada
+        autonomy: nível de autonomia
+        planned_autonomy: nível de autonomia planejada
+        occupation_name: nome da função
+        emphases_names_as_list: nomes das ênfases
+        # Associations
+        occupation: função
+        person: pessoa
+        seat: cadeira
+        workplace: local de trabalho
+      person:
+        first_name: primeiro nome
+        last_name: último nome
+        full_name: nome
+        name: nome
+        nickname: apelido
+        profile_picture_url: foto de perfil
+        corporate_email: email corporativo
+        corporate_phone: telefone corporativo
+        personal_email: email pessoal
+        personal_phone: telefone pessoal
+        internal_phone: telefone interno ou ramal
+        birthdate: data de nascimento
+        birthplace: local de nascimento
+        cpf: cpf
+        identity_card: identidade
+        disability: portador de deficiência
+        contract_type: vínculo
+        availability_type: disponibilidade
+        manager: gestor?
+        direct_manager_id: id do gestor direto
+        direct_manager_cpf: cpf do gestor direto
+        # Associations
+        job_title: cargo
+        contracts: contratos
+        emphases_people: ênfases
+        parent: gestor direto
+        contracts_attributes: contratos
+        seats: cadeiras
+        work_shift: turno
+        third_party_company: empresa terceira
+        # Enums
+        contract_types:
+          own: próprio
+          third_party: terceiro
+          other: outro
+        availability_types:
+          active: ativo
+          away: afastado
+          on_vacation: em férias
+        statuses:
+          active: ativo
+          inactive: inativo
+      plan:
+        <<: *default
+      seat:
+        <<: *default
+        planned_autonomy: nível de autonomia planejado
+        category: Categoria
+        position_type: posição
+        employee_type: ferista
+        occupation_type: função
+        contract_type: contrato
+        availability_type: disponibilidade
+        flow_type: fluxo
+        count_in_headcount: considerada no headcount
+        metadata: atributos específicos
+        person_id: identificador da pessoa
+        contract_id: identificador do contrato
+        third_party_company_id: identificador do empresa terceira
+        person_name: nome da pessoa
+        workplace: local de trabalho
+        occupations_section_index: index da seção de funções
+        # Associations
+        collective: coletivo
+        parent: cadeira gerente
+        person: pessoa
+        contract: contrato
+        third_party_company: empresa terceira
+        occupation: função
+        occupations: funções
+        emphases: ênfases
+        work_shift: turno
+        occupations_seats: funções
+        managed_collective: coletivo expandido sob gerencia
+        substitute: substituto
+        substitute_for: substituto para a cadeira
+        # Enums
+        position_types:
+          non_manager: não gestor
+          manager: gestor
+        employee_types:
+          non_substitute: não ferista
+          substitute: ferista
+        occupation_types:
+          mono: monofunção
+          mono_with_emphases: monofunção com ênfase
+          multi: multifuncional
+          multi_with_emphases: multifuncional com ênfase
+        contract_types:
+          own: própria
+          third_party: terceira
+          other: outros
+        availability_types:
+          active: ativo
+          away: afastado
+          on_vacation: em férias
+          inactive: inativo
+        flow_types:
+          in_operation: em operação
+          planning: planejamento
+          demanded: demandada
+          to_hire: a contratar
+          hiring: em contratação
+      tenant:
+        <<: *company
+        # Associations
+        plan: plano
+        billing: dados de cobrança
+      third_party_company:
+        <<: *company
+        # Associations
+        seats: cadeiras
+      user: &user
+        <<: *default
+        provider: provedor
+        uid: uid
+        encrypted_password: senha criptografada
+        reset_password_token: token para recuperação de senha
+        reset_password_sent_at: token para recuperação de senha enviado em
+        allow_password_change: permitir alteração de senha
+        remember_created_at: me lembre criado em
+        sign_in_count: contador de logins
+        current_sign_in_at: login atual feito em
+        last_sign_in_at: último login feito em
+        current_sign_in_ip: IP do login atual
+        last_sign_in_ip: último IP de login
+        confirmation_token: token de confimação de conta
+        confirmed_at: confirmado em
+        confirmation_sent_at: token de confirmação de conta enviado em
+        unconfirmed_email: email não confimado
+        email: email
+        tokens: tokens
+        phone: telefone
+        omniauth_uid: uid para omniauth
+        omniauth_provider: provedor para o omniauth
+        code: código de confirmação
+        phone_confirmation_sent_at: confirmação de telefone enviada em
+        phone_confirmation_message: mensagem da confirmação de telefone
+        phone_confirmation_token: token de confirmação de telefone
+        current_password: senha atual
+        password: senha
+        password_confirmation: confirmação da senha
+        full_name: nome
+        terms_of_use_accepted: termos de uso aceitos
+        privacy_policy_accepted: política de privacidade aceita
+        # Associations
+        person: pessoa
+        administrator: administrador
+        # Enums
+        kinds:
+          common: simples
+          admin: administrador da empresa
+          situated_consultant: consultor situated
+          situated_master: master situated
+      workplace:
+        <<: *default
+        # Associations
+        seats: cadeiras
+      work_schedule:
+        <<: *default
+        weekday: dia da semana
+        start_hour: hora de início
+        end_hour: hora do fim
+        # Associations
+        work_shift: Turno
+        # Enums
+        weekdays:
+          sunday: domingo
+          monday: segunda-feira
+          tuesday: terça-feira
+          wednesday: quarta-feira
+          thursday: quinta-feira
+          friday: sexta-feira
+          saturday: sábado
+      work_shift:
+        <<: *default
+        start_hour: hora de início
+        end_hour: hora do fim
+        # Associations
+        seat: cadeira

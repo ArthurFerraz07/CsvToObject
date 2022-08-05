@@ -1,0 +1,33 @@
+---
+en:
+  import:
+    description_table_headers:
+      column: Column
+      type: Type
+      format: Format
+      description: Description
+    person:
+      keys:
+        full_name: Full name
+        social_name: Social name
+        birthdate: Date of birth
+        cpf: CPF (Brazilian Identity)
+        corporate_email: Company email
+        personal_email: Personal email
+        profile_picture_url: Profile picture
+        internal_phone: Extension number
+        corporate_phone: Company mobile
+        personal_phone: Personal mobile
+        corporate_registration: Employee number
+        last_start_date: Last date of hire
+        contract_type: Type of labor contract
+        third_party_company: Third Party
+        other_contract: Other internal contracts
+        job_title: Job title
+        manager: Manager? (Yes/No)
+        work_unity: Business Unit
+        management: Management unit
+        direct_manager_cpf: Direct manager
+        work_shift_start_time: Work shift (Start Time)
+        work_shift_end_time: Work shift (End Time)
+        status: Status

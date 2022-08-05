@@ -1,0 +1,24 @@
+key,pt,en
+pt-BR.pundit.errors.accessor_valid?,Forma de acesso inválida!,Invalid way to gain access!
+pt-BR.pundit.errors.collective_belongs_to_user?,Você não é o gestor deste coletivo.,You are not the manager of this working group.
+pt-BR.pundit.errors.collective_belonged_to_user?,Você não é o gestor deste coletivo.,You are not the manager of this working group.
+pt-BR.pundit.errors.collective_has_no_manager_descendants?,Este coletivo contem outras gerencias dentro dele.,This working group contains other organizational units within it.
+pt-BR.pundit.errors.company_user_belongs_to_user?,Você não tem acesso a essa permissão.,"You do not have access to this permission. "
+pt-BR.pundit.errors.mapping_belongs_to_user?,Você não tem acesso a esse mapeamento.,"You do not have access to this mapping. "
+pt-BR.pundit.errors.person_accessor?,Essa rota só pode ser acessada pela pessoa.,This route can only be accessed by the person.
+pt-BR.pundit.errors.person_present?,Esse usuário não está vinculado a nenhuma pessoa.,This user is not linked to any person.
+pt-BR.pundit.errors.person_self?,Você não é essa pessoa.,"You are not a person. "
+pt-BR.pundit.errors.seat_belongs_to_user?,Você não pode manipular cadeiras nesse coletivo.,You cannot manipulate positions in this working group.
+pt-BR.pundit.errors.seat_belonged_to_user?,Você não pode manipular cadeiras nesse coletivo.,You cannot manipulate positions in this working group.
+pt-BR.pundit.errors.situated_user?,Você não é um usuário Situated,"You are not a Situated user. "
+pt-BR.pundit.errors.user_admin?,Você não é um administrador,You are not an administrator
+pt-BR.pundit.errors.user_belongs_to_company?,Você não possui relação com essa empresa.,You have no relationship with this company.
+pt-BR.pundit.errors.user_is_focal_point?,Você não é o ponto focal desta função!,"You are not the focal point of this function! "
+pt-BR.pundit.errors.user_is_manager_or_focal_point_or_person?,Seu usuário não está relacionado com o mapeamento.,Your user is not related to the mapping.
+pt-BR.pundit.errors.user_is_person?,Você não é a pessoa desse mapeamento.,You are not the person of this mapping.
+pt-BR.pundit.errors.user_manager?,Você não é um gestor.,You are not a manager.
+pt-BR.pundit.errors.user_present?,Você não está conectado.,You are not connected to the internet.
+pt-BR.pundit.errors.user_self?,Usuário requisitado não é o seu.,"The user that was requested is not yours. "
+pt-BR.pundit.errors.seat_policy.create?,Você não tem permissão para criar cadeiras.,You are not allowed to create positions.
+pt-BR.pundit.errors.expanded_collective_policy.create?,Você não tem permissão para criar coletivos.,You are not allowed to create working groups.
+pt-BR.pundit.errors.minimum_collective_policy.create?,Você não tem permissão para criar coletivos.,You are not allowed to create working groups.

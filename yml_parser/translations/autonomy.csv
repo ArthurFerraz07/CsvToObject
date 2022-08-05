@@ -1,0 +1,45 @@
+key,pt,en
+pt-BR.autonomy.mapping.tooltips.disagreements.header.title,Entenda o cálculo,Understand the calculation
+pt-BR.autonomy.mapping.tooltips.disagreements.header.description,"O cálculo do grau da diferença é realizado a partir da diferença das respostas do seu mapeamento e do automapeamento. A nível de função, leva em consideração os valores dados nas dimensões, sendo 0 a 2 baixa e 2 a 12 alta. Já a nível de atividade, utiliza os valores de autonomia dados para cada atividades, sendo 0 a 1 baixa e 1 a 12 alta.",
+pt-BR.autonomy.mapping.tooltips.level.draft.title,,
+pt-BR.autonomy.mapping.tooltips.level.draft.description,Este valor é parcial e refere-se ao mapeamento de autonomia que você fez. O valor final depende de dois mapeamentos: o do(a) gestor(a) e o automapeamento do empregado.,This value is partial and refers to the autonomy mapping you did. The final value depends on two mappings: the manager's mapping and the employee's self-mapping.
+pt-BR.autonomy.mapping.tooltips.level.person_published.title,,
+pt-BR.autonomy.mapping.tooltips.level.person_published.description,Este valor é parcial e diz respeito apenas ao resultado do automapeamento desta pessoa,This value is partial and refers only to the result of this person's self-mapping
+pt-BR.autonomy.mapping.tooltips.level.responsible_published.title,,
+pt-BR.autonomy.mapping.tooltips.level.responsible_published.description,Este valor é parcial e diz respeito apenas ao mapeamento do gestor desta pessoa,This value is partial and refers only to the manager's mapping of this person
+pt-BR.autonomy.mapping.tooltips.level.undetermined_autonomy.title,,
+pt-BR.autonomy.mapping.tooltips.level.undetermined_autonomy.description,A autonomia está pendente pois os dois mapeamentos apresentam uma alta diferença entre eles.,The autonomy is pending because the two mappings present a high difference between them.
+pt-BR.autonomy.mapping.by_occupation.tooltips.autonomy.draft?.title,Mapeamento pendente,Mapping pending
+pt-BR.autonomy.mapping.by_occupation.tooltips.autonomy.draft?.description,Faça o mapeamento desta pessoa para visualizar o resultado,Map this person's autonomy to view the result
+pt-BR.autonomy.mapping.by_occupation.tooltips.autonomy.info.title,Autonomia,Autonomy
+pt-BR.autonomy.mapping.by_occupation.tooltips.autonomy.info.description,Nível de expertise atribuído à pessoa,Level of expertise assigned to the person
+pt-BR.autonomy.mapping.by_occupation.tooltips.autonomy.responsible_should_publish?.title,,
+pt-BR.autonomy.mapping.by_occupation.tooltips.autonomy.responsible_should_publish?.description,Faça o mapeamento desta pessoa para visualizar o resultado,Map this person's autonomy to view the result
+pt-BR.autonomy.mapping.by_occupation.tooltips.autonomy.self_mapping_pending?.title,Esse resultado de autonomia é parcial,This result of autonomy is partial
+pt-BR.autonomy.mapping.by_occupation.tooltips.autonomy.self_mapping_pending?.description,"Para que o resultado seja completo, são precisos dois mapeamentos: o do(a) gestor(a) e o do colaborador(a) mapeado(a).","For the result to be complete, two mappings are needed: the manager's mapping and the employee's self-mapping."
+pt-BR.autonomy.mapping.by_occupation.tooltips.autonomy.undetermined_autonomy?.title,,
+pt-BR.autonomy.mapping.by_occupation.tooltips.autonomy.undetermined_autonomy?.description,Sugerimos a abertura das atividades da função para um mapeamento mais preciso,We suggest identifying the function's activites for a more precise mapping
+pt-BR.autonomy.mapping.by_occupation.tooltips.disagreement_by_activity.high.title,,
+pt-BR.autonomy.mapping.by_occupation.tooltips.disagreement_by_activity.high.description,"Uma diferença em atividades indica que os envolvidos estão desalinhados em relação ao valor de autonomia calculado, sendo necessária a realização de um novo mapeamento conjuntamente","A difference in activities indicates that those involved are misaligned in relation to the calculated autonomy value, being necessary to carry out a new mapping together"
+pt-BR.autonomy.mapping.by_occupation.tooltips.disagreement_by_occupation.high_locked.title,Acesse a área de autonomia desta pessoa para ver a origem da alta diferença,Access this person's autonomy area to see where the high difference lies
+pt-BR.autonomy.mapping.by_occupation.tooltips.disagreement_by_occupation.high_locked.description,A diferença entre os mapeamentos foi igual a duas casas na maioria das dimensões ou foi maior do que três casas em qualquer dimensão,The difference between the mappings was equal to two dashes in most dimensions or was greater than three dashes in any dimension
+pt-BR.autonomy.mapping.by_occupation.tooltips.disagreement_by_occupation.high_unlocked.title,Converse com seu liderado para entender a diferença entre mapeamentos,Talk to your team member to understand the difference between mappings
+pt-BR.autonomy.mapping.by_occupation.tooltips.disagreement_by_occupation.high_unlocked.description,A diferença entre os mapeamentos foi igual a duas casas na maioria das dimensões ou foi maior do que três casas em qualquer dimensão,The difference between the mappings was equal to two dashes in most dimensions or was greater than three dashes in any dimension
+pt-BR.autonomy.mapping.by_occupation.tooltips.disagreement_by_occupation.low.title,"A diferença é aceitável, não sendo necessário refazer o mapeamento","The difference is acceptable, no need to remap"
+pt-BR.autonomy.mapping.by_occupation.tooltips.disagreement_by_occupation.low.description,"A diferença será ""aceitável"" quando for menor ou igual a duas casas","The difference will be ""acceptable"" when it is less than or equal to two dashes"
+pt-BR.autonomy.mapping.by_occupation.tooltips.disagreement_by_occupation.undetermined.title,Nada a fazer,Nothing to do
+pt-BR.autonomy.mapping.by_occupation.tooltips.disagreement_by_occupation.undetermined.description,"A diferença é aceitável, não sendo necessário refazer o mapeamento. A diferença será aceitável quando for menor ou igual a duas casas","The difference is acceptable, with no need to re-map. The difference will be acceptable when it is less than or equal to two dashes"
+pt-BR.autonomy.mapping.by_occupation.tooltips.level.draft.title,,
+pt-BR.autonomy.mapping.by_occupation.tooltips.level.draft.description,Este valor é parcial e refere-se ao mapeamento de autonomia que você fez. O valor final depende de dois mapeamentos: o do(a) gestor(a) e o automapeamento do empregado.,This value is partial and refers to the autonomy mapping you did. The final value depends on two mappings: the manager's mapping and the employee's self-mapping.
+pt-BR.autonomy.mapping.by_occupation.tooltips.level.person_published.title,,
+pt-BR.autonomy.mapping.by_occupation.tooltips.level.person_published.description,Este valor é parcial e diz respeito apenas ao resultado do automapeamento desta pessoa,This value is partial and refers only to the result of this person's self-mapping
+pt-BR.autonomy.mapping.by_occupation.tooltips.level.responsible_published.title,,
+pt-BR.autonomy.mapping.by_occupation.tooltips.level.responsible_published.description,Este valor é parcial e diz respeito apenas ao resultado do mapeamento do gestor desta pessoa,This value is partial and refers only to the manager's mapping of this person
+pt-BR.autonomy.mapping.by_occupation.tooltips.level.undetermined_autonomy.title,,
+pt-BR.autonomy.mapping.by_occupation.tooltips.level.undetermined_autonomy.description,A autonomia está pendente pois os dois mapeamentos apresentam uma alta diferença entre eles.,The autonomy is pending because the two mappings present a high difference between them.
+pt-BR.autonomy.mapping.by_occupation.tooltips.person_status.person_draft.title,Esta pessoa precisa fazer seu automapeamento.,This person needs to do their self-mapping.
+pt-BR.autonomy.mapping.by_occupation.tooltips.person_status.person_draft.description,"Para que o resultado seja completo, são precisos dois mapeamentos: o do(a) gestor(a) e o do colaborador(a) mapeado(a).","For the result to be complete, two mappings are needed: the manager's mapping and the employee's self-mapping."
+pt-BR.autonomy.mapping.by_occupation.tooltips.specificity.activity.title,,
+pt-BR.autonomy.mapping.by_occupation.tooltips.specificity.activity.description,Mapeamento por atividade realizado pelo ponto focal,Mapping by activity carried out by the focal point
+pt-BR.autonomy.mapping.by_occupation.tooltips.specificity.occupation.title,,
+pt-BR.autonomy.mapping.by_occupation.tooltips.specificity.occupation.description,Este mapeamento está sendo realizado no nível de função,This mapping is being performed at the function level
